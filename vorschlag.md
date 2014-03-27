@@ -1,6 +1,6 @@
 Im Rahmen des WAB3 Projekts und des Themas Quantified Self möchten wir uns
-auf die Fragestellung "(Wie) lässt sich mein/das Leben durch QS verbessern?"
+auf die Fragestellung "Lässt sich mein/das Leben durch QS verbessern?"
 spezialisieren.
-Dies wollen wir anhand von (3) unterschiedlichen Selbstversuchen erarbeiten.
-Dabei nutzen wir vorrangig eine schlafzyklen Analyse, Verhalten der Nahrungs-
-aufnahme und einem Pedometer.
+Dies wollen wir anhand von unterschiedlichen Selbstversuchen erarbeiten.
+Dabei wollen wir vorrangig Schlafzyklen, Stimmungen und körperliche Aktivitäten erfassen. Diese Daten lassen sich dann miteinander korrelierien, wodurch sowohl eine subjektive als auch objektive Sichtweise ermöglicht wird.
+Uns ist klar, dass diese Selbstversuche nicht representativ sind. Wir würden Sie deshalb darum bitten, uns bei der Verfeinerung der These zu unterstützen.
