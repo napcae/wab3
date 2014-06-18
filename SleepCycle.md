@@ -1,0 +1,3 @@
+## Sleep Cycle
+
+Wir bewegen uns in den verschieden Phasen des Schlafes unterschiedlich stark. Die Software "Sleep Cycle" benutzt daher das eingebaute "Accelerometer" (dt. Beschleunigungssensor) des Aufzeichungsgerätes (Smartphone), um die diese Bewegungen zu erfassen. Die Bewegungen sind ausschlaggebend für die Bestimmung der Zustandsphasen des Schlafes. Man fühlt sich ausgeschlafener, wenn man in den Phasen des leichten Schlafes geweckt wird (Studien q.e.d.). 
