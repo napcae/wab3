@@ -1,0 +1,6 @@
+## Relativierung
+
+Für eine aussagekräftige Analyse der Daten, sowie ein erfolgreiches Ende des Projekt ist es wichtig ein paar essentielle Rahmenbedingungen für die Probanden zu erstellen und eventuelle kritische Erfolgsfaktoren, die das Ergebnis dieses Projekts verfälschen können, festzuhalten.
+So müssen alle Probanden täglich innerhalb der einmonatigen Testphase die unter 2.1.2 genannten mobilen Applikationen nutzen, um die notwendigen Daten zu generieren. Sollte das nicht geschehen, wird das Ergebnis verfälscht und nicht eindeutig. Weiter werden die generierten Daten mindestens einmal in der Woche zusammengetragen und durch Zwischenanalysen erste Ergebnisse erbracht. Dies soll einem etwaigen Verlust wichtiger Daten vorbeugen und ein erstes Anzeichen auf das Endresultat darstellen. Sollte ein Proband die Nutzung der Applikationen an einem Tag vergessen haben, ist dies sofort festzuhalten und bei der Auswertung zu berücksichtigen. 
+Ein kritischer Erfolgsfaktor ist ein während der Testphase erkrankter Proband: Sollte ein Proband während der Testphase krank werden, kann dies massiv die generierten Daten verfälschen, da eine Krankheit auf die beobachteten Faktoren (Schlaf, Bewegung und Ernährung) großen Einfluss hat. Die Daten, die während der Krankheitsphase gewonnen wurden müssen deswegen gesondert analysiert werden. 
+
