@@ -20,6 +20,11 @@ Während des Schlafes durchläuft der Organismus mehrmals verschiedene Stadien. 
 * Stadium 4
 * REM Phase
 
-
-
 “This isn’t really something new. These so called bio-alarm clocks have been around for years and work very well, but they usually come with a hefty $200 price tag. I realized that the iPhone has all the components needed, and decided to make an alarm clock that works exactly the same, but sell it for a dollar or two instead.” Maciek Drejak, the programmer behind the application, says.
+
+
+![Tagesinformation](C:\Users\Flo\Pictures\2014-06-21\002.png)
+
+
+![Schlafübersicht](C:\Users\Flo\Pictures\2014-06-21\001.png)
+
