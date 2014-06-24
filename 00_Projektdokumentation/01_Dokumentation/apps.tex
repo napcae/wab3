@@ -16,9 +16,41 @@ Bla fasel\ldots
 %% ==============================
 \label{ch:Apps:sec:Moves}
 
-Beschreibung von Moves
+Die Aktivitäts- und Location-Tracking App **Moves** soll ein automatisches Tagebuch sein, dass dem Nutzer sagt und zeigt, wo, wann und vor allem wie lang er in Bewegung war.
 
-Bla fasel\ldots
+Dafür analysiert die App automatisch alle Lauf-, Radfahr- und Rennaktivität, nimmt Sie auf und speichert sie. 
+
+Die gespeicherten Daten, wie z.B. die Distanz, die Dauer und die Anzahl der Schritte  sowie der Kalorienverbrauch jeder Aktivität, werden grafisch für den Benutzer übersichtlich dargestellt. 
+
+Damit die App die Daten generieren kann ist sie „Always-On“ – also ständig mit dem Internet verbunden und es ist nicht nötig, die App zu Starten oder zu beenden.
+
+Die einzelnen Funktionen der App sind: 
+
+\subsection{Der Schrittzähler}
+
+Der Schrittzähler in **Moves** ist die Hauptfunktion der App und zeigt dem Nutzer, wie viele Schritte er täglich gegangen ist. 
+
+**Moves** nimmt neben dem normalen Laufen auch Fahrradfahren, Joggen oder die Fahrten mit anderen Verkehrsmitteln zu Kenntnis. 
+
+Laut der App sind täglich 10.000 Schritte das Minimum, das ein gesundheitsbewusster Mensch erreichen sollte.
+
+\begin{figure}[H]
+\centering
+	\includegraphics[width=0.6\textwidth]{images/moves_app_screenshot} 
+	\caption[Screenshot des Moves Bildschirms]{Screenshot des Moves Bildschirms}
+	\label{fig:moves_screenshot}
+\end{figure}
+
+\subsection{Der Kalorienzähler}
+
+Mit dem Kalorienzähler der in der App zusätzlich beinhaltet ist, werden die Kalorien ermittelt, die in der jeweiligen Aktivität verbrannt wurden. 
+Dazu kann dem Nutzer die tägliche optimale Menge der zu verbrennenden Kalorien angezeigt werden.
+
+\subsection{Third-Party-Apps-Integration}
+
+Da die App nicht nur die eigenen Dienste unterstützt, sondern auch Apps und Services von Drittanbietern. 
+So existieren seit Kurzem die Möglichkeit, bis zu 15 andrere Apps in Moves zu integrieren. 
+Der Start der API, die es Entwicklern und Anbietern von Third-Party-Services bzw. –Apps erlaubt, **Moves** einzubinden, war der erste Schritt, um die gesammelten Daten umfassend analysieren und auswerten zu können.
 
 %% ==============================
 \section{Hueman}
@@ -34,7 +66,23 @@ Bla fasel\ldots
 %% ==============================
 \label{ch:Apps:sec:SleepCycle}
 
-Beschreibung von Sleep Cycle
+Wir bewegen uns in den verschieden Phasen des Schlafes unterschiedlich stark. Die Software „Sleep Cycle“ benutzt daher das eingebaute „Accelerometer“ (dt. Beschleunigungssensor) des Aufzeichungsgerätes (Smartphone), um die diese Bewegungen zu erfassen. Die Bewegungen sind ausschlaggebend für die Bestimmung der Zustandsphasen des Schlafes. Der Alarm des integrierten Wecker ertönt, wenn sich der benutzer in der Leichtesten Phase des Schlafes befindent. Man fühlt sich ausgeschlafener und erholter, wenn man in den Phasen des leichten Schlafes geweckt wird (*Belegen*). 
+
+Zudem bietet „Sleep Cylce“ ein Tracking und Analyse Funktion. Diese zeigen dem Nutzer Informationen über deren Schlaf sowie Mögliche Ursachen für Störung. Dafür analysiert die Software die Bewegungen während des Schlafes und erfasst Informationen über den Vergangen Tag des Benutzers. Alle erfassten Daten werden in unterschiedlichen Grafiken und Plots dargestellt.
+
+\section{Funktionsweise und Anwendung}
+
+Vor Beginn des Schlafes, wird die gewünschte Alarmzeit konfiguriert und das Aufzeichnungsgerät, gemäß Softwareentwicker, auf dem Bett neben dem Kopfkissen platziert. 
+
+Während des Schlafes durchläuft der Organismus mehrmals verschiedene Stadien. Diese lauten (*Belegen*):
+
+\begin{itemize}
+	\item Stadium 1
+	\item Stadium 2
+	\item Stadium 3
+	\item Stadium 4
+	\item R.E.M. Phase
+\end{itemize}
 
 
 %%% Local Variables: 
