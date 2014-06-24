@@ -4,33 +4,36 @@
 \BOOKMARK [1][-]{section.1.2}{1.2 Gliederung der Arbeit}{chapter.1}% 4
 \BOOKMARK [1][-]{section.1.3}{1.3 Auswahl der Trackingmethoden}{chapter.1}% 5
 \BOOKMARK [0][]{chapter.2}{2 Grundlagen}{}% 6
-\BOOKMARK [1][-]{section.2.1}{2.1 Quantified Self Allgemein}{chapter.2}% 7
-\BOOKMARK [1][-]{section.2.2}{2.2 Abschnitt 2}{chapter.2}% 8
-\BOOKMARK [1][-]{section.2.3}{2.3 Verwandte Arbeiten}{chapter.2}% 9
-\BOOKMARK [0][]{chapter.3}{3 Auswahl der Applikationen}{}% 10
-\BOOKMARK [1][-]{section.3.1}{3.1 Moves}{chapter.3}% 11
-\BOOKMARK [2][-]{subsection.3.1.1}{3.1.1 Was ist Moves?}{section.3.1}% 12
-\BOOKMARK [2][-]{subsection.3.1.2}{3.1.2 Design und Features}{section.3.1}% 13
-\BOOKMARK [2][-]{subsection.3.1.3}{3.1.3 Die Performance}{section.3.1}% 14
-\BOOKMARK [2][-]{subsection.3.1.4}{3.1.4 Zusammenfassung}{section.3.1}% 15
-\BOOKMARK [1][-]{section.3.2}{3.2 Hueman}{chapter.3}% 16
-\BOOKMARK [2][-]{subsection.3.2.1}{3.2.1 Was ist Human?}{section.3.2}% 17
-\BOOKMARK [2][-]{subsection.3.2.2}{3.2.2 Design und Features}{section.3.2}% 18
-\BOOKMARK [2][-]{subsection.3.2.3}{3.2.3 Zusammenfassung}{section.3.2}% 19
-\BOOKMARK [1][-]{section.3.3}{3.3 Sleep Cycle}{chapter.3}% 20
-\BOOKMARK [0][]{chapter.4}{4 Fehleranalyse}{}% 21
-\BOOKMARK [1][-]{section.4.1}{4.1 Anforderungen}{chapter.4}% 22
-\BOOKMARK [1][-]{section.4.2}{4.2 Existierende L\366sungsans\344tze}{chapter.4}% 23
-\BOOKMARK [1][-]{section.4.3}{4.3 Weiterer Abschnitt}{chapter.4}% 24
-\BOOKMARK [1][-]{section.4.4}{4.4 Zusammenfassung}{chapter.4}% 25
-\BOOKMARK [0][]{chapter.5}{5 Evaluierung}{}% 26
-\BOOKMARK [1][-]{section.5.1}{5.1 Abschnitt 1}{chapter.5}% 27
-\BOOKMARK [1][-]{section.5.2}{5.2 Abschnitt 2}{chapter.5}% 28
-\BOOKMARK [1][-]{section.5.3}{5.3 Zusammenfassung}{chapter.5}% 29
-\BOOKMARK [0][]{chapter.6}{6 Analyse}{}% 30
-\BOOKMARK [1][-]{section.6.1}{6.1 Anforderungen}{chapter.6}% 31
-\BOOKMARK [1][-]{section.6.2}{6.2 Existierende L\366sungsans\344tze}{chapter.6}% 32
-\BOOKMARK [1][-]{section.6.3}{6.3 Weiterer Abschnitt}{chapter.6}% 33
-\BOOKMARK [1][-]{section.6.4}{6.4 Zusammenfassung}{chapter.6}% 34
-\BOOKMARK [0][]{chapter.7}{7 Zusammenfassung und Ausblick}{}% 35
-\BOOKMARK [0][]{section*.3}{Literaturverzeichnis}{}% 36
+\BOOKMARK [1][-]{section.2.1}{2.1 Quantified Self}{chapter.2}% 7
+\BOOKMARK [2][-]{subsection.2.1.1}{2.1.1 Allgemein}{section.2.1}% 8
+\BOOKMARK [2][-]{subsection.2.1.2}{2.1.2 Einsatzgebiete}{section.2.1}% 9
+\BOOKMARK [2][-]{subsection.2.1.3}{2.1.3 Ausblick}{section.2.1}% 10
+\BOOKMARK [1][-]{section.2.2}{2.2 Abschnitt 2}{chapter.2}% 11
+\BOOKMARK [1][-]{section.2.3}{2.3 Verwandte Arbeiten}{chapter.2}% 12
+\BOOKMARK [0][]{chapter.3}{3 Auswahl der Applikationen}{}% 13
+\BOOKMARK [1][-]{section.3.1}{3.1 Moves}{chapter.3}% 14
+\BOOKMARK [2][-]{subsection.3.1.1}{3.1.1 Was ist Moves?}{section.3.1}% 15
+\BOOKMARK [2][-]{subsection.3.1.2}{3.1.2 Design und Features}{section.3.1}% 16
+\BOOKMARK [2][-]{subsection.3.1.3}{3.1.3 Die Performance}{section.3.1}% 17
+\BOOKMARK [2][-]{subsection.3.1.4}{3.1.4 Zusammenfassung}{section.3.1}% 18
+\BOOKMARK [1][-]{section.3.2}{3.2 Hueman}{chapter.3}% 19
+\BOOKMARK [2][-]{subsection.3.2.1}{3.2.1 Was ist Human?}{section.3.2}% 20
+\BOOKMARK [2][-]{subsection.3.2.2}{3.2.2 Design und Features}{section.3.2}% 21
+\BOOKMARK [2][-]{subsection.3.2.3}{3.2.3 Zusammenfassung}{section.3.2}% 22
+\BOOKMARK [1][-]{section.3.3}{3.3 Sleep Cycle}{chapter.3}% 23
+\BOOKMARK [0][]{chapter.4}{4 Fehleranalyse}{}% 24
+\BOOKMARK [1][-]{section.4.1}{4.1 Anforderungen}{chapter.4}% 25
+\BOOKMARK [1][-]{section.4.2}{4.2 Existierende L\366sungsans\344tze}{chapter.4}% 26
+\BOOKMARK [1][-]{section.4.3}{4.3 Weiterer Abschnitt}{chapter.4}% 27
+\BOOKMARK [1][-]{section.4.4}{4.4 Zusammenfassung}{chapter.4}% 28
+\BOOKMARK [0][]{chapter.5}{5 Evaluierung}{}% 29
+\BOOKMARK [1][-]{section.5.1}{5.1 Abschnitt 1}{chapter.5}% 30
+\BOOKMARK [1][-]{section.5.2}{5.2 Abschnitt 2}{chapter.5}% 31
+\BOOKMARK [1][-]{section.5.3}{5.3 Zusammenfassung}{chapter.5}% 32
+\BOOKMARK [0][]{chapter.6}{6 Analyse}{}% 33
+\BOOKMARK [1][-]{section.6.1}{6.1 Anforderungen}{chapter.6}% 34
+\BOOKMARK [1][-]{section.6.2}{6.2 Existierende L\366sungsans\344tze}{chapter.6}% 35
+\BOOKMARK [1][-]{section.6.3}{6.3 Weiterer Abschnitt}{chapter.6}% 36
+\BOOKMARK [1][-]{section.6.4}{6.4 Zusammenfassung}{chapter.6}% 37
+\BOOKMARK [0][]{chapter.7}{7 Zusammenfassung und Ausblick}{}% 38
+\BOOKMARK [0][]{section*.3}{Literaturverzeichnis}{}% 39
