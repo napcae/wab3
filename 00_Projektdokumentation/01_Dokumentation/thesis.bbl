@@ -3,10 +3,9 @@
 \bibitem{Chen:SleepMonitoring}
 Z.~Chen, M.~Lin, F.~Chen, N.~D. Lane, G.~Cardone, R.~Wang, T.~Li, Y.~Chen,
   T.~Choudhury, and A.~T. Campbell, ``Unobtrusive sleep monitoring using
-  smartphones,'' {\em Pervasive Computing Technologies for Healthcare
-  (PervasiveHealth), 2013 7th International Conference on}, 2013.
-\newblock
-  \url{http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&arnumber=6563918&queryText%3DUnobtrusive+sleep+monitoring+using+smartphones}.
+  smartphones,'' in {\em Pervasive Computing Technologies for Healthcare
+  (PervasiveHealth), 2013 7th International Conference on Pervasive Computing
+  Technologies for Healthcare}.
 
 \bibitem{TB2000}
 F.~Stenz {\em et~al.}, {\em Technische Beschreibung f"ur System 0815}, 1998.
