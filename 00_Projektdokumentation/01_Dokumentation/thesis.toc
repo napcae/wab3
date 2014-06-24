@@ -20,23 +20,20 @@
 \contentsline {subsection}{\numberline {3.2.1}Was ist Human?}{7}{subsection.3.2.1}
 \contentsline {subsection}{\numberline {3.2.2}Design und Features}{7}{subsection.3.2.2}
 \contentsline {subsection}{\numberline {3.2.3}Zusammenfassung}{7}{subsection.3.2.3}
-\contentsline {section}{\numberline {3.3}Sleep Cycle}{8}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Hintergrundwissen}{8}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Funktionsweise und Anwendung}{8}{subsection.3.3.2}
-\contentsline {chapter}{\numberline {4}Fehleranalyse}{11}{chapter.4}
-\contentsline {section}{\numberline {4.1}Anforderungen}{11}{section.4.1}
-\contentsline {section}{\numberline {4.2}Existierende L\IeC {\"o}sungsans\IeC {\"a}tze}{11}{section.4.2}
-\contentsline {section}{\numberline {4.3}Weiterer Abschnitt}{11}{section.4.3}
-\contentsline {section}{\numberline {4.4}Zusammenfassung}{13}{section.4.4}
-\contentsline {chapter}{\numberline {5}Evaluierung}{15}{chapter.5}
-\contentsline {section}{\numberline {5.1}Abschnitt 1}{15}{section.5.1}
-\contentsline {section}{\numberline {5.2}Abschnitt 2}{15}{section.5.2}
-\contentsline {section}{\numberline {5.3}Zusammenfassung}{15}{section.5.3}
-\contentsline {chapter}{\numberline {6}Analyse}{17}{chapter.6}
-\contentsline {section}{\numberline {6.1}Anforderungen}{17}{section.6.1}
-\contentsline {section}{\numberline {6.2}Existierende L\IeC {\"o}sungsans\IeC {\"a}tze}{17}{section.6.2}
-\contentsline {section}{\numberline {6.3}Weiterer Abschnitt}{17}{section.6.3}
-\contentsline {section}{\numberline {6.4}Zusammenfassung}{19}{section.6.4}
-\contentsline {chapter}{\numberline {7}Zusammenfassung und Ausblick}{21}{chapter.7}
-\contentsline {chapter}{Literaturverzeichnis}{23}{section*.3}
-\contentsline {chapter}{Index}{29}{section*.7}
+\contentsline {section}{\numberline {3.3}Sleep Cycle}{7}{section.3.3}
+\contentsline {chapter}{\numberline {4}Fehleranalyse}{9}{chapter.4}
+\contentsline {section}{\numberline {4.1}Anforderungen}{9}{section.4.1}
+\contentsline {section}{\numberline {4.2}Existierende L\IeC {\"o}sungsans\IeC {\"a}tze}{9}{section.4.2}
+\contentsline {section}{\numberline {4.3}Weiterer Abschnitt}{9}{section.4.3}
+\contentsline {section}{\numberline {4.4}Zusammenfassung}{11}{section.4.4}
+\contentsline {chapter}{\numberline {5}Evaluierung}{13}{chapter.5}
+\contentsline {section}{\numberline {5.1}Abschnitt 1}{13}{section.5.1}
+\contentsline {section}{\numberline {5.2}Abschnitt 2}{13}{section.5.2}
+\contentsline {section}{\numberline {5.3}Zusammenfassung}{13}{section.5.3}
+\contentsline {chapter}{\numberline {6}Analyse}{15}{chapter.6}
+\contentsline {section}{\numberline {6.1}Anforderungen}{15}{section.6.1}
+\contentsline {section}{\numberline {6.2}Existierende L\IeC {\"o}sungsans\IeC {\"a}tze}{15}{section.6.2}
+\contentsline {section}{\numberline {6.3}Weiterer Abschnitt}{15}{section.6.3}
+\contentsline {section}{\numberline {6.4}Zusammenfassung}{17}{section.6.4}
+\contentsline {chapter}{\numberline {7}Zusammenfassung und Ausblick}{19}{chapter.7}
+\contentsline {chapter}{Literaturverzeichnis}{21}{section*.3}
