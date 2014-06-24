@@ -1,4 +1,4 @@
-#Moves - die lokcation-based Aktivitätstracking-App
+#Moves - die location-based Aktivitätstracking-App
 
 ## Was ist **Moves**?
 
