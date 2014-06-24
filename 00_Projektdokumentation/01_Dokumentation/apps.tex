@@ -5,8 +5,11 @@
 \chapter{Auswahl der Applikationen}
 \label{ch:Apps}
 %% ==============================
-Unsere Auswahl der Apps
-Erläuterung, Einführung
+
+Zur Durchführung und Erhebung der Daten wurden drei verschiedene mobile Anwendungen von der Projektgruppe ausgesucht und festgelegt. 
+Zum Trocken der Aktivtäten wurde die kostenlose Anwendung Moves ausgewählt, für das Erfassen der Schlafrhythmen die kostenpflichtige Anwendung SleepCycle und für die Erfassung der Stimmung die Anwendung Hueman. 
+Durch diese Applikationen sind die Hauptbereiche, auf denen das Augenmerk für ein erfolgreiches Durchführen des Projektes liegt, abgedeckt.
+Die Apps werden im Folgenden genauer beschrieben.
 Bla fasel\ldots
 
 
@@ -16,65 +19,136 @@ Bla fasel\ldots
 %% ==============================
 \label{ch:Apps:sec:Moves}
 
-Die Aktivitäts- und Location-Tracking App **Moves** soll ein automatisches Tagebuch sein, dass dem Nutzer sagt und zeigt, wo, wann und vor allem wie lang er in Bewegung war.
+\subsection{Was ist Moves?}
+%% ==============================
+\label{ch:Apps:sec:Moves:subsec:WIM}
 
-Dafür analysiert die App automatisch alle Lauf-, Radfahr- und Rennaktivität, nimmt Sie auf und speichert sie. 
+Moves ist eine mobile Quantified-Self-Anwendung, die die taglichen Aktivitäten trackt, mit der Hoffnung für den Anwender, durch die gewonnenen Daten besser in Form zu kommen. 
+Seit Anfang 2013 ist die Applikation, die ursprünglich nur für iPhone und iPad entwickelt wurde kostenlos in den AppStores erhältlich. 
+Die Moves-App wurde mittlerweile mehr als 3,5 Millionen Mal heruntergeladen und erhielt im Jahr 2013 zudem die Auszeichnung als "Best of AppStore 2013".
+Seit Anfang 2014 ist die Anwendung nun auch auf Android-Plattformen nutzbar und kann so auch dort das Radfahren, Wandern oder Laufen tracken.
+\\
+(BILD)
 
-Die gespeicherten Daten, wie z.B. die Distanz, die Dauer und die Anzahl der Schritte  sowie der Kalorienverbrauch jeder Aktivität, werden grafisch für den Benutzer übersichtlich dargestellt. 
+\subsection{Design und Features}
+%% ==============================
+\label{ch:Apps:sec:Moves:subsec:DuF}
 
-Damit die App die Daten generieren kann ist sie „Always-On“ – also ständig mit dem Internet verbunden und es ist nicht nötig, die App zu Starten oder zu beenden.
+Moves hebt sich von den mittlerweile massenhaft existierenden Bezahl-Fitness-Apps und diversen tragbaren Geräten, wie zum Beispiel Fitbit One, das Nike Fuelband oder dem Withings Pulse, insofern sehr stark ab, dass die Daten hier in sehr viel benutzerfreundlicherer Art und Weise präsentiert werden, als bei den zuvor genannten.
+\\
+Die App glänzt durch eine gute Umsetzung und ihrer Einfachheit. 
+Viele andere Fitness-Apps bombardieren den Nutzer regelrecht mit den bereitgestellten bzw. erfassten Daten, um diesen "ruhig" zu stellen. 
+Moves hingegen nimmt einen ganz anderen Ansatz wahr. 
+Dem Nutzer werden die Daten, die durch die täglichen Aktivitäten erhalten wurden, als "Handlung" bzw. Timeline des Tages anschaulich präsentiert.
+\\
+Der Einsatz von Sensoren, wie zum Beispiel dem Beschleunigungsmesser, gepaart mit GPS- und WiFi machen es so der Applikation möglich, zwischen den verschiedenen Aktivitäten des Nutzers, sowie dessen Stadtorte zu unterscheiden. 
+Die gewonnenen Daten werden auf den hauseigenen Servern der Firma gespeichert, auf denen unter anderem auch ein Teil der Daten analysiert wird. 
+Bei täglicher Nutzung von Moves fallen so etwa 30 MB an Daten an, die auf die Server geschoben werden. 
+Das heißt natürlich nicht, dass die Anwendung nur online genutzt werden kann und dadurch das monatliche Übertragungs-Volumen schmälert. 
+Eine Volumenschonende Nutzung - also offline - ist möglich, da die App die notwendigen Daten auch so sammelt, diese aber erst analysieren und auswerten kann, wenn wieder eine aktive Verbindung zum Internet, z.B. durch WiFi, besteht.   
+\\
+Die Benutzeroberfläche ansich ist eher spärlich gehalten. 
+Es gibt lediglich die "Storyline" bzw. die Timeline, die herunterscrollbar ist. 
+Weiterhin existieren dreierlei Kreistypen, die oberhalb der Timeline angebracht sind und die jeweilige Aktivität, wie Wandern, Radfahren oder Laufen, darstellt. 
+Diese zeigen dem Nutzer neben den getätigten "Schritten" auch die Menge an verbrauchten Kalorien und die zurückgelegte Strecke in Kilometern an. 
+Weiterhin bietet die die App Moves die Möglichkeiten Fortschritte herauszukristallisieren, da man aktuelle Aktivitäten mit denen vom Vortag oder der Vorwoche vergleichen kann.   
+\\
+(BILD)
+\\
+Die Einstellungen der Applikation sind ziemlich minimalistisch gehalten, da der Nutzer lediglich die Möglichkeiten hat, die Batterielebensdauer durch die Auswahl des stationären Einsatzes zu minimieren, die Messeinheiten zwischen "metrisch" und "imperial" ändern und einen täglich Aktivitätsbericht als Benachrichtigung erhalten kann. 
+\\
+Die Einbindung durch sogenannte "Third-Party-Apps", also von Anwendungen anderer Hersteller, ist seit Anfang 2014 möglich und erweitert das Repertoire von Moves enorm. 
+So ist die Einbindung von bis zu 13 anderen Apps, wie TicTrac oder Bounts derzeit möglich.  
+\\
 
-Die einzelnen Funktionen der App sind: 
+\subsection{Die Performance}
+%% ==============================
+\label{ch:Apps:sec:Moves:subsec:PERF}
 
-\subsection{Der Schrittzähler}
+Das Großartige an der App Moves ist, dass der Nutzer kein extra Gerät - wie eine "Uhr" am Handgelenk - benötigt, um die Datengenerierung zu ermöglichen, sondern lediglich das Smartphone bzw. Tablet des Nutzers alleine genügt. 
+Auch wird durch das "Always-on"-Prinzip, also dass die Anwendung durchgehend im Hintergrund geöffnet ist, die ständige Datengenerierung gewährleistet, auch wenn der Nutzer einmal vergessen sollte, Moves zu öffnen.
+\\
+Da die Genauigkeit der Daten offensichtlich ein wichtiges Anliegen der Entwickler ist, zeigt sich im Vergleich mit der Tracking-App Withings Pulse, der einen Unterschied von ganzen 200 Schritten zeigte. 
+Auch in Hinblick auf die angezeigte Distanz und Dauer war Moves so akkurat wie ein modernes TomTom GPS-Navigationsgerät.
+\\
+(BILD)
+\\
+Wie bei den meisten Apps, die sehr stark auf GPS setzen, um reibungslos funktionieren zu können, geht die Moves-Nutzung derweil stark auf die Akkulaufzeit des Smartphones/Tablets, was sich trotz verbesserter Technologie im Zusammenhang mit dem M7-Chip des iPhone 5S sehr bemerkbar macht. 
+So raten die Entwickler den Nutzern, das Smartphone/Tablet immer über Nacht aufladen zu lassen bzw. den stationären Einsatz einzustellen.
+\\
+Der normalen täglichen Nutzung der App tut die etwas verkürzte Akkulaufzeit aber kein Abbruch. 
+Man sollte lediglich darauf achten, andere Anwendungen stets zu schließen.
 
-Der Schrittzähler in **Moves** ist die Hauptfunktion der App und zeigt dem Nutzer, wie viele Schritte er täglich gegangen ist. 
+\subsection{Zusammenfassung}
+%% ==============================
+\label{ch:Apps:sec:Moves:subsec:VERDICT} 
 
-**Moves** nimmt neben dem normalen Laufen auch Fahrradfahren, Joggen oder die Fahrten mit anderen Verkehrsmitteln zu Kenntnis. 
-
-Laut der App sind täglich 10.000 Schritte das Minimum, das ein gesundheitsbewusster Mensch erreichen sollte.
-
-\begin{figure}[H]
-\centering
-	\includegraphics[width=0.6\textwidth]{images/moves_app_screenshot} 
-	\caption[Screenshot des Moves Bildschirms]{Screenshot des Moves Bildschirms}
-	\label{fig:moves_screenshot}
-\end{figure}
-
-\subsection{Der Kalorienzähler}
-
-Mit dem Kalorienzähler der in der App zusätzlich beinhaltet ist, werden die Kalorien ermittelt, die in der jeweiligen Aktivität verbrannt wurden. 
-Dazu kann dem Nutzer die tägliche optimale Menge der zu verbrennenden Kalorien angezeigt werden.
-
-\subsection{Third-Party-Apps-Integration}
-
-Da die App nicht nur die eigenen Dienste unterstützt, sondern auch Apps und Services von Drittanbietern. 
-So existieren seit Kurzem die Möglichkeit, bis zu 15 andrere Apps in Moves zu integrieren. 
-Der Start der API, die es Entwicklern und Anbietern von Third-Party-Services bzw. –Apps erlaubt, **Moves** einzubinden, war der erste Schritt, um die gesammelten Daten umfassend analysieren und auswerten zu können.
+Die Moves-App wird den Nutzer vielleicht nicht sofort fitter machen, das ist ja auch nicht die grundlegende Idee hinter der App. 
+Es geht vielmehr darum, dem Nutzer ein "gesünderes" Denken durch die Nutzung der Anwendung mit auf den Weg zu geben. 
+So kann sich der Nutzer erstmal ein klareres Bild seiner Tagesaktivitäten und Bewegungen machen und so in die Lage versetzt werden, etwas an seinen Aktivitäten zu ändern bzw. zu verbessern.
+\\
+So eignet sich die App Moves trotz der kleinen Macken, wie Innennutzung oder Akkulaufzeit, sehr gut um mit einer gesünderen veränderten Aktivitätsplanung ins weitere Leben zu starten und schont zugleich den Geldbeutel, da der Nutzer auf die Anschaffung eines teuren Fitness-Tracking-Geräts verzichten kann.
 
 %% ==============================
 \section{Hueman}
 %% ==============================
 \label{ch:Apps:sec:Hueman}
 
-Beschreibung von Hueman
+\subsection{Was ist Human?}
+%% ==============================
+\label{ch:Apps:sec:Moves:subsec:WIH}
 
-Bla fasel\ldots
+Human ist eine weitere mobile QS-Anwendung, mit der sich das allgemeine tägliche Befinden tracken lässt. 
+Durch die dadurch gewonnen Daten soll der Nutzer etwaige positive oder negative Veränderungen durch bestimmte Aktivitäten erkennen und besser einordnen.
+Seit Anfang 2014 ist die Applikation in Apples' AppsStore erhältlich, um die Gemütszustände zu erfassen.
+\\
+(BILD)
+
+\subsection{Design und Features}
+%% ==============================
+\label{ch:Apps:sec:Moves:subsec:DuFe}
+
+Auch die Entwickler dieser Anwendung schreiben das Wort "simplicity" groß. 
+Denn durch einfaches Wischen des Nutzers über den Bildschirm des Smartphones legt dieser seinen aktuellen Gefühlszustand fest.
+Optisch aufgewertet werden die einzelnen Zustande durch eine Art Farbpalette, bei der die "waren" Farben für eine gute bis sehr gute und die "kalten" Farben für die schlechte bis miserable Stimmung stehen.
+Die Applikation vergleicht die einzelnen gewonnenen Daten miteinander und gibt diese dem Nutzer als fortlaufendes Diagramm aus, sodass er die Veränderungen der Stimmungen schnell erkennen kann.
+\\
+(BILD)
+
+\subsection{Zusammenfassung}
+%% ==============================
+\label{ch:Apps:sec:Moves:subsec:Verdict}
+
+Da die App Human leicht und vor allem schnell bedienen lässt, ist sie der optimale Begleiter für Nutzer, die gerne mehr über die Wechselwirkungen ihrer Stimmung bescheid wissen wollen.
+Sie erlaubt es durch einfache grafische Aufwertungen, dem Nutzer auch visuell seine Stimmungen näherzubringen.  
+
 
 %% ==============================
 \section{Sleep Cycle}
 %% ==============================
 \label{ch:Apps:sec:SleepCycle}
 
-Wir bewegen uns in den verschieden Phasen des Schlafes unterschiedlich stark. Die Software „Sleep Cycle“ benutzt daher das eingebaute „Accelerometer“ (dt. Beschleunigungssensor) des Aufzeichungsgerätes (Smartphone), um die diese Bewegungen zu erfassen. Die Bewegungen sind ausschlaggebend für die Bestimmung der Zustandsphasen des Schlafes. Der Alarm des integrierten Wecker ertönt, wenn sich der benutzer in der Leichtesten Phase des Schlafes befindent. Man fühlt sich ausgeschlafener und erholter, wenn man in den Phasen des leichten Schlafes geweckt wird (*Belegen*). 
+Sleep Cycle ist Bio-Wecker, welcher das Schlafmuster des Benutzers analysiert und in der leichtesten Phase des Schlafes aufweckt.
+Dafür zeichnet die Software die Bewegungsaktivitäten während des Schlafes auf und wertet diese aus.
+Darüber hinaus biete die App zusätzliche Möglichkeiten um die Schlafgewohnheiten zu Kategorisieren sowie die Auswirkungen in unterschiedliche Charts zu begutachten. 
 
-Zudem bietet „Sleep Cylce“ ein Tracking und Analyse Funktion. Diese zeigen dem Nutzer Informationen über deren Schlaf sowie Mögliche Ursachen für Störung. Dafür analysiert die Software die Bewegungen während des Schlafes und erfasst Informationen über den Vergangen Tag des Benutzers. Alle erfassten Daten werden in unterschiedlichen Grafiken und Plots dargestellt.
+\subsection{Hintergrundwissen}
+\label{ch:Apps:sec:Sleepcycle:subsec:H}
 
-\section{Funktionsweise und Anwendung}
+Der Schlaf ist ein wichtiges aktiver Teiles des täglichen Lebens und dient der Erholung von Körper und Geist.
+Bei zu wenig Schlaf leidet der Körper unter Schlafmangel und kann zu Depressionen, Bluthochdruck oder weiteren Krankheiten führen. \cite{Chen:SleepMonitoring}
 
-Vor Beginn des Schlafes, wird die gewünschte Alarmzeit konfiguriert und das Aufzeichnungsgerät, gemäß Softwareentwicker, auf dem Bett neben dem Kopfkissen platziert. 
+Das bereits ca. 15\% der Bevölkerung in Deutschland an immer wiederkehrenden Schlafstörungen leiden und dem Steigenden Interesse an \textbf{Quantified Self}, sind Gründe für immer mehr der sogenannten "Sleep Tracker" auf dem Markt. %\cite{•}
+Mit diesen, als reiner Software auf dem Smartphone (Bsp. \textbf{Sleep Cycle \ref{ch:Apps:sec:SleepCycle}}) oder mit zusätzlicher Hardware (Bsp. JawboneUp), lässt sich der Schlaf des Benutzers analysieren und eventuelle Schwachstellen aufzeigen.
 
-Während des Schlafes durchläuft der Organismus mehrmals verschiedene Stadien. Diese lauten (*Belegen*):
+Praktische bewegt sich der Mensch in den verschieden Phasen des Schlafes unterschiedlich stark.
+Diese Bewegungen zeichnet die Software „Sleep Cycle“ mit dem eingebauten „Accelerometer“ (dt. Beschleunigungssensor) des Aufzeichnungsgerätes (Smartphone) auf.
+Die Bewegungen und deren Häufigkeit sind ausschlaggebend für die Bestimmung der Zustandsphasen des Schlafes.
+Der Alarm des integrierten Wecker ertönt, wenn sich der Benutzer in der Leichtesten Phase des Schlafes befindet.
+
+
+
+Man fühlt sich ausgeschlafener und erholter, wenn man in den Phasen des leichten Schlafes geweckt wird (*Belegen*). 
 
 \begin{itemize}
 	\item Stadium 1
@@ -83,6 +157,22 @@ Während des Schlafes durchläuft der Organismus mehrmals verschiedene Stadien. 
 	\item Stadium 4
 	\item R.E.M. Phase
 \end{itemize}
+
+
+
+
+
+\subsection{Funktionsweise und Anwendung}
+\label{ch:Apps:sec:Sleepcycle:subsec:FuA}
+
+Zudem bietet „Sleep Cylce“ ein Tracking und Analyse Funktion.
+Diese zeigen dem Nutzer Informationen über deren Schlaf sowie Mögliche Ursachen für Störung.
+Dafür analysiert die Software die Bewegungen während des Schlafes und erfasst Informationen über den Vergangen Tag des Benutzers.
+Alle erfassten Daten werden in unterschiedlichen Grafiken dargestellt.
+
+Vor Beginn des Schlafes, wird die gewünschte Alarmzeit konfiguriert und das Aufzeichnungsgerät, gemäß Softwareentwickler, auf dem Bett neben dem Kopfkissen platziert. 
+
+
 
 
 %%% Local Variables: 
