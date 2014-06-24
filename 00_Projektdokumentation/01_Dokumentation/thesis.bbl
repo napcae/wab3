@@ -1,0 +1,19 @@
+\begin{thebibliography}{1}
+
+\bibitem{TB2000}
+F.~Stenz {\em et~al.}, {\em Technische Beschreibung f"ur System 0815}, 1998.
+
+\bibitem{TB98}
+F.~Stenz, W.~Weich, D.~Drollig, K.~Klein, and G.~Ganz, {\em Technische
+  Beschreibung f"ur System 4711}, 1998.
+
+\bibitem{JSAC96}
+G.~Blakowski and R.~Steinmetz, ``A media synchronization survey: Reference
+  model, specification, and case studies,'' {\em IEEE Journal on Selected Areas
+  in Communication}, vol.~14, pp.~5--35, Jan. 1996.
+
+\bibitem{qosr}
+E.~Crawley, R.~Nair, B.~Rajagopalan, and H.~Sandick, ``A framework for
+  qos-based routing in the internet.'' RFC 2386 (Informational), Aug. 1998.
+
+\end{thebibliography}
