@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.6.23)  24 JUN 2014 09:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.6.23)  24 JUN 2014 11:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -727,7 +727,7 @@ File: t1aess.fd 1997/11/16 Font definitions for T1/aess.
 )
 \Zweitgutachter=\box40
 
-<logos/HFTL_Deckblatt.pdf, id=136, 597.19112pt x 845.07718pt>
+<logos/HFTL_Deckblatt.pdf, id=148, 597.19112pt x 845.07718pt>
 File: logos/HFTL_Deckblatt.pdf Graphic file (type pdf)
 
 <use logos/HFTL_Deckblatt.pdf>
@@ -800,7 +800,18 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 121.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 121.
- (./thesis.toc)
+ (./thesis.toc
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 36.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 36.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 36.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 36.
+ [5
+
+])
 \tf@toc=\write5
 \openout5 = `thesis.toc'.
 
@@ -812,21 +823,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 121.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 121.
- [5
-
-]
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 121.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 121.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 121.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 121.
- [6
-
-
-]
+ [6]
 \openout2 = `einleitung.aux'.
 
  (./einleitung.tex
@@ -848,6 +845,8 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 31.
 [1
+
+
 
 
 
@@ -983,9 +982,21 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 90.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 99.
+(babel)             in language  on input line 94.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 99.
+(babel)             in language  on input line 94.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 104.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 104.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 115.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 115.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 124.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 124.
 )
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 133.
@@ -1326,7 +1337,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 177.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 177.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 177.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 8D408D5C61180273FD8AB4113080F2DE;2148.
+(rerunfilecheck)             Checksum: 4987917F1C9562F403DBE2F3D1067278;2376.
 
 
 LaTeX Warning: There were undefined references.
@@ -1337,13 +1348,13 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 177.
  ) 
 Here is how much of TeX's memory you used:
- 9357 strings out of 493117
- 131395 string characters out of 6135433
- 240144 words of memory out of 5000000
- 12493 multiletter control sequences out of 15000+600000
+ 9369 strings out of 493117
+ 131637 string characters out of 6135433
+ 240294 words of memory out of 5000000
+ 12502 multiletter control sequences out of 15000+600000
  39430 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,11n,45p,462b,356s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,11n,49p,462b,510s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><
 /usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></
@@ -1352,10 +1363,10 @@ sr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></
 usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></u
 sr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></us
 r/local/texlive/2014/texmf-dist/fonts/type1/public/eurosym/feymr10.pfb>
-Output written on thesis.pdf (30 pages, 692033 bytes).
+Output written on thesis.pdf (30 pages, 694121 bytes).
 PDF statistics:
- 392 PDF objects out of 1000 (max. 8388607)
- 339 compressed objects within 4 object streams
- 80 named destinations out of 1000 (max. 500000)
- 270 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 407 PDF objects out of 1000 (max. 8388607)
+ 354 compressed objects within 4 object streams
+ 83 named destinations out of 1000 (max. 500000)
+ 294 words of extra memory for PDF output out of 10000 (max. 10000000)
 
