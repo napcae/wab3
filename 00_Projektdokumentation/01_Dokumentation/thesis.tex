@@ -1,3 +1,4 @@
+% !TEX encoding = UTF-8 Unicode
 \documentclass{wissdoc}
 % Autor: Chi Trung Nguyen 2013-2014, chitrungnguyen <at> me.com
 % Vorlagenautor: Roland Bless 1996-2009, bless <at> kit.edu
@@ -13,22 +14,22 @@
 \usepackage[numbers,sort&compress]{natbib}
 \usepackage{float}
 \restylefloat{table} %!damit tabellen dort auftauchen, wo sie beschrieben werden([H] benutzen!)
-\usepackage[official]{eurosym} % für Eurosymbol
-\usepackage{listings} %für Quellcode
+\usepackage[official]{eurosym} % fÃŒr Eurosymbol
+\usepackage{listings} %fÃŒr Quellcode
 \lstset{
-  literate={Ö}{{\"O}}1
-{Ä}{{\"A}}1
-{Ü}{{\"U}}1
-{ß}{{\ss}}2
-{ü}{{\"u}}1
-{ä}{{\"a}}1
-{ö}{{\"o}}1
+  literate={Ã}{{\"O}}1
+{Ã}{{\"A}}1
+{Ã}{{\"U}}1
+{Ã}{{\ss}}2
+{ÃŒ}{{\"u}}1
+{Ã€}{{\"a}}1
+{Ã¶}{{\"o}}1
 }
 % \usepackage{varioref}
 % \usepackage{verbatim}
 % \usepackage{float}    %z.B. \floatstyle{ruled}\restylefloat{figure}
 % \usepackage{subfigure}
-% \usepackage{fancybox} % für schattierte,ovale Boxen etc.
+% \usepackage{fancybox} % fÃŒr schattierte,ovale Boxen etc.
 % \usepackage{tabularx} % automatische Spaltenbreite
 % \usepackage{supertab} % mehrseitige Tabellen
 % \usepackage[svnon,svnfoot]{svnver} % SVN Versionsinformation 
@@ -36,7 +37,7 @@
 
 %\svnversion{$Id: thesis.tex 65 2012-05-10 10:32:11Z bless $} % In case that you want to include version information in the footer
 
-%% Informationen für die PDF-Datei
+%% Informationen fÃŒr die PDF-Datei
 \hypersetup{
  pdfauthor={Andreas Hornig, Florian Weber, Chi Trung Nguyen},
  pdftitle={Not set}
@@ -50,19 +51,19 @@
 % Print URLs not in Typewriter Font
 \def\UrlFont{\rm}
 
-\newcommand{\blankpage}{% Leerseite ohne Seitennummer, nächste Seite rechts
+\newcommand{\blankpage}{% Leerseite ohne Seitennummer, nÃ€chste Seite rechts
  \clearpage{\pagestyle{empty}\cleardoublepage}
 }
 
-%% Einstellungen für das gesamte Dokument
+%% Einstellungen fÃŒr das gesamte Dokument
 
 % Trennhilfen
 % Wichtig! 
-% Im ngerman-paket sind zusätzlich folgende Trennhinweise enthalten:
-% "- = zusätzliche Trennstelle
-% "| = Vermeidung von Ligaturen und mögliche Trennung (bsp: Schaf"|fell)
+% Im ngerman-paket sind zusÃ€tzlich folgende Trennhinweise enthalten:
+% "- = zusÃ€tzliche Trennstelle
+% "| = Vermeidung von Ligaturen und mÃ¶gliche Trennung (bsp: Schaf"|fell)
 % "~ = Bindestrich an dem keine Trennung erlaubt ist (bsp: bergauf und "~ab)
-% "= = Bindestrich bei dem Worte vor und dahinter getrennt werden dürfen
+% "= = Bindestrich bei dem Worte vor und dahinter getrennt werden dÃŒrfen
 % "" = Trennstelle ohne Erzeugung eines Trennstrichs (bsp: und/""oder)
 
 % Trennhinweise fuer Woerter hier beschreiben
@@ -75,18 +76,18 @@
 % Kon-troll-in-stanz
 }
 
-% Index-Datei öffnen
+% Index-Datei Ã¶ffnen
 \ifnotdraft{\makeindex}
 %%%%%%%%%%%%%% includeonly %%%%%%%%%%%%%%%%%%%
 % Es werden nur die Teile eingebunden, die hier 
 % aufgefuehrt sind!
 \includeonly{%
 titelseite,%
-erklaerung,% Ist in KA Pflicht für Diplomarbeiten
+erklaerung,% Ist in KA Pflicht fÃŒr Diplomarbeiten
 einleitung,% Motivation, Zielsetzung, Gliederung
 grundlagen,% Grundlagen 
 apps,
-fehleranalyse, %Relativierung, mögliche Fehlerquellen (technische, persönliche, falsche Wahrnehmung)
+fehleranalyse, %Relativierung, mÃ¶gliche Fehlerquellen (technische, persÃ¶nliche, falsche Wahrnehmung)
 eval,
 analyse,   % Problembeschreibung (Detail) und Related Work
 zusammenf  % Zusammenfassung der Ergebnisse und Ausblick
@@ -98,12 +99,12 @@ zusammenf  % Zusammenfassung der Ergebnisse und Ausblick
 \pagenumbering{roman}
 \ifnotdraft{
  \include{titelseite}
- \blankpage % Leerseite auf Titelrückseite
+ \blankpage % Leerseite auf TitelrÃŒckseite
  %
- % Die folgende Erklärung ist für Diplomarbeiten Pflicht
- % (siehe Prüfungsordnung), für Studienarbeiten nicht notwendig
+ % Die folgende ErklÃ€rung ist fÃŒr Diplomarbeiten Pflicht
+ % (siehe PrÃŒfungsordnung), fÃŒr Studienarbeiten nicht notwendig
  \include{erklaerung}
- \blankpage % Leerseite auf Erklärungsrückseite
+ \blankpage % Leerseite auf ErklÃ€rungsrÃŒckseite
 }
 %
 %% *************** Hier geht's ab ****************
@@ -156,7 +157,7 @@ zusammenf  % Zusammenfassung der Ergebnisse und Ausblick
 %%
 %\nocite{*} % nur angeben, wenn auch nicht im Text zitierte Quellen 
            % erscheinen sollen
-\bibliographystyle{ieeetr} % mit abgekürzten Vornamen der Autoren
+\bibliographystyle{ieeetr} % mit abgekÃŒrzten Vornamen der Autoren
 %\bibliographystyle{gerplain} % abbrvnat unsrtnat
 %\bibliographystyle{plainurl} % abbrvnat unsrtnat
 % spezielle Zitierstile: Labels mit vier Buchstaben und Jahreszahl
