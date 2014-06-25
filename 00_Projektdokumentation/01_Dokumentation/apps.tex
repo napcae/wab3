@@ -135,9 +135,10 @@ Sie erlaubt es durch einfache grafische Aufwertungen, dem Nutzer auch visuell se
 %% ==============================
 \label{ch:Apps:sec:SleepCycle}
 
-Sleep Cycle ist Bio-Wecker, welcher das Schlafmuster des Benutzers analysiert und in der leichtesten Phase des Schlafes aufweckt.
+Sleep Cycle ist Schlafphasenwecker, welcher das Schlafmuster des Benutzers analysiert und in der leichtesten Phase des Schlafes aufweckt. \cite{web:SleepCycle}
 Dafür zeichnet die Software die Bewegungsaktivitäten während des Schlafes auf und wertet diese aus.
-Darüber hinaus biete die App zusätzliche Möglichkeiten um die Schlafgewohnheiten zu Kategorisieren sowie die Auswirkungen in unterschiedliche Charts zu begutachten. 
+Darüber hinaus biete die Applikation zusätzliche Möglichkeiten um die Schlafgewohnheiten zu Kategorisieren sowie die Auswirkungen in unterschiedliche Charts zu begutachten. 
+Die Idee von intelligenten Schlafphasenweckern besteht darin, die Schlafgewohnheit aufzuzeichnen und mit Notizen zu versehen. Dadurch erlangt man die Erkenntnis über die Schlafqualität in Zusammenhang mit deren Ursachen, um im Anschluss die eignen Gewohnheiten zu verändern, damit die Qualität des Schlafes zu verbessern und sich erholter zu fühlen.
 
 \subsection{Hintergrundwissen}
 \label{ch:Apps:sec:Sleepcycle:subsec:H}
@@ -148,25 +149,28 @@ Bei zu wenig Schlaf leidet der Körper unter Schlafmangel und kann zu Depression
 Das bereits ca. 15\% der Bevölkerung in Deutschland an immer wiederkehrenden Schlafstörungen leiden und dem Steigenden Interesse an \textbf{Quantified Self}, sind Gründe für immer mehr der sogenannten "Sleep Tracker" auf dem Markt. %\cite{•}
 Mit diesen, als reiner Software auf dem Smartphone (Bsp. \textbf{Sleep Cycle \ref{ch:Apps:sec:SleepCycle}}) oder mit zusätzlicher Hardware (Bsp. JawboneUp), lässt sich der Schlaf des Benutzers analysieren und eventuelle Schwachstellen aufzeigen.
 
-Praktische bewegt sich der Mensch in den verschieden Phasen des Schlafes unterschiedlich stark.
-Diese Bewegungen zeichnet die Software „Sleep Cycle“ mit dem eingebauten „Accelerometer“ (dt. Beschleunigungssensor) des Aufzeichnungsgerätes (Smartphone) auf.
-Die Bewegungen und deren Häufigkeit sind ausschlaggebend für die Bestimmung der Zustandsphasen des Schlafes.
-Der Alarm des integrierten Wecker ertönt, wenn sich der Benutzer in der Leichtesten Phase des Schlafes befindet.
-
-
-
-Man fühlt sich ausgeschlafener und erholter, wenn man in den Phasen des leichten Schlafes geweckt wird (*Belegen*). 
+Praktisch bewegt sich der Mensch in den verschieden Phasen des Schlafes unterschiedlich stark.
+Diese einzelnen Bewegungen zeichnet die Software „Sleep Cycle“ mit Hilfe des eingebauten „Accelerometer“ (dt. Beschleunigungssensor) des Aufzeichnungsgerätes (Smartphone) auf.
+Der Schlaf wird generell in folgende 5 Stadien untergliedert:
 
 \begin{itemize}
-	\item Stadium 1
-	\item Stadium 2
-	\item Stadium 3
-	\item Stadium 4
-	\item R.E.M. Phase
+	\item Einschlafphase (1 Phase)
+	\item Leichter Schlaf (2 Phase)
+	\item Mittlerer Schlaf (3 Phase)
+	\item Tiefer Schlaf (4 Phase)
+	\item REM Schlaf (5 Phase)
 \end{itemize}
 
+Von Phase eins bis vier nehmen die Bewegungen der Muskel ab, bis diese während des REM Schlafes vollkommen versiegen. Diese Zyklus dauert circa 90 Minuten und wird während des Schlafes mehrmals durchlaufen. Dadurch lassen sich die einzelnen Phasen des Schlafes anhand der Bewegung bestimmen. \textbf{BELEGEN}
+Innerhalb der ersten beiden Phasen befindet sich der Körper in Momenten in denen er fast Wach ist. Zu diesem Zeitpunkt ist der Benutzer am leichtesten zu Wecken und fühlt sich ausgeschlafener und erholter.
+Mit Hilfe der ermittelten Phase und dem gewählten Weckzeitraum, ertönt der Wecker sobald sich der Benutzer in der Leichtesten Phase des Schlafes befindet. Siehe Abbildung \ref{fig:Hypnogramm}
 
-
+\begin{figure}
+\centering
+\includegraphics[width=0.9\textwidth]{images/aXbo_Schlafverlauf_Hypnogramm_DE.png}
+\caption{Schlafverlauf Hypnogramm \cite{fig:Hypnogramm}}
+\label{fig:Hypnogramm}
+\end{figure}
 
 
 \subsection{Funktionsweise und Anwendung}
