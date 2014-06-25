@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.6.24)  24 JUN 2014 15:24
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.6.24)  24 JUN 2014 15:30
 entering extended mode
 **thesis.tex
 
@@ -620,7 +620,31 @@ umentation\einleitung.aux")
 ("C:\Users\Flo\Dropbox\HftL\5 + 6 Semester\WAB 3\00_Projektdokumentation\01_Dok
 umentation\grundlagen.aux")
 ("C:\Users\Flo\Dropbox\HftL\5 + 6 Semester\WAB 3\00_Projektdokumentation\01_Dok
-umentation\apps.aux"))
+umentation\apps.aux")
+("C:\Users\Flo\Dropbox\HftL\5 + 6 Semester\WAB 3\00_Projektdokumentation\01_Dok
+umentation\fehleranalyse.aux")
+("C:\Users\Flo\Dropbox\HftL\5 + 6 Semester\WAB 3\00_Projektdokumentation\01_Dok
+umentation\eval.aux")
+("C:\Users\Flo\Dropbox\HftL\5 + 6 Semester\WAB 3\00_Projektdokumentation\01_Dok
+umentation\analyse.aux"
+
+LaTeX Warning: Label `ch:Analyse:sec:Anforderungen' multiply defined.
+
+
+LaTeX Warning: Label `ch:Analyse:sec:RelatedWork' multiply defined.
+
+
+LaTeX Warning: Label `ch:Analyse:sec:Abschnitt' multiply defined.
+
+
+LaTeX Warning: Label `fig:test' multiply defined.
+
+
+LaTeX Warning: Label `ch:Analyse:sec:zusammenfassung' multiply defined.
+
+)
+("C:\Users\Flo\Dropbox\HftL\5 + 6 Semester\WAB 3\00_Projektdokumentation\01_Dok
+umentation\zusammenf.aux"))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 96.
 LaTeX Font Info:    ... okay on input line 96.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 96.
@@ -715,7 +739,7 @@ File: t1aess.fd 1997/11/16 Font definitions for T1/aess.
 )
 \Zweitgutachter=\box40
 
-<logos/HFTL_Deckblatt.pdf, id=91, 597.19112pt x 845.07718pt>
+<logos/HFTL_Deckblatt.pdf, id=171, 597.19112pt x 845.07718pt>
 File: logos/HFTL_Deckblatt.pdf Graphic file (type pdf)
 
 <use logos/HFTL_Deckblatt.pdf>
@@ -749,18 +773,17 @@ umentation\erklaerung.tex" [3
 
 ]
 ("C:\Users\Flo\Dropbox\HftL\5 + 6 Semester\WAB 3\00_Projektdokumentation\01_Dok
-umentation\thesis.toc")
+umentation\thesis.toc" [5
+
+])
 \tf@toc=\write5
- [5
-
-] [6
-
-
-]
+ [6]
 ("C:\Users\Flo\Dropbox\HftL\5 + 6 Semester\WAB 3\00_Projektdokumentation\01_Dok
 umentation\einleitung.tex"
 Kapitel 1.
 [1
+
+
 
 
 
@@ -806,45 +829,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 37--63
 
 
 ] [6] [7]
-
-Package natbib Warning: Citation `Chen:SleepMonitoring' on page 8 undefined on 
-input line 139.
-
-
-LaTeX Warning: Reference `ch:Apps:sec:SleepCycle' on page 8 undefined on input 
-line 142.
-
 LaTeX Font Info:    Try loading font information for OMS+aer on input line 154.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ae\omsaer.fd"
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ae\omsaer.fd"
 File: omsaer.fd 1999/12/27
 )
 LaTeX Font Info:    Font shape `OMS/aer/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 154.
-) [8]
+)
+[8]
 ("C:\Users\Flo\Dropbox\HftL\5 + 6 Semester\WAB 3\00_Projektdokumentation\01_Dok
 umentation\fehleranalyse.tex"
 Kapitel 4.
-
-Package natbib Warning: Citation `TB2000' on page 9 undefined on input line 39.
-
-
-
-Package natbib Warning: Citation `TB98' on page 9 undefined on input line 40.
-
-
-Package natbib Warning: Citation `JSAC96' on page 9 undefined on input line 40.
-
-
-
-Package natbib Warning: Citation `qosr' on page 9 undefined on input line 40.
-
-
-LaTeX Warning: Reference `fig:test' on page 9 undefined on input line 41.
-
-
-LaTeX Warning: Reference `fig:test' on page 9 undefined on input line 41.
-
 [9
 
 
@@ -878,26 +874,6 @@ umentation\analyse.tex" [14
 
 ]
 Kapitel 6.
-
-Package natbib Warning: Citation `TB2000' on page 15 undefined on input line 39
-.
-
-
-Package natbib Warning: Citation `TB98' on page 15 undefined on input line 40.
-
-
-Package natbib Warning: Citation `JSAC96' on page 15 undefined on input line 40
-.
-
-
-Package natbib Warning: Citation `qosr' on page 15 undefined on input line 40.
-
-
-LaTeX Warning: Reference `fig:test' on page 15 undefined on input line 41.
-
-
-LaTeX Warning: Reference `fig:test' on page 15 undefined on input line 41.
-
 [15] [16pdfTeX warning (ext4): destination with the same identifier (name{figur
 e.6.1}) has been already used, duplicate ignored
 
@@ -936,11 +912,8 @@ umentation\thesis.lot")
 ]
 ("C:\Users\Flo\Dropbox\HftL\5 + 6 Semester\WAB 3\00_Projektdokumentation\01_Dok
 umentation\thesis.ind")
-
-Package natbib Warning: There were undefined citations.
-
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 177.
-[27
+ [27
 
 
 ]
@@ -965,39 +938,28 @@ umentation\eval.aux")
 ("C:\Users\Flo\Dropbox\HftL\5 + 6 Semester\WAB 3\00_Projektdokumentation\01_Dok
 umentation\analyse.aux")
 ("C:\Users\Flo\Dropbox\HftL\5 + 6 Semester\WAB 3\00_Projektdokumentation\01_Dok
-umentation\zusammenf.aux")
-
-Package natbib Warning: Citation(s) may have changed.
-(natbib)                Rerun to get citations correct.
-
-)
+umentation\zusammenf.aux"))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 177.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 177.
+Package rerunfilecheck Info: File `thesis.out' has not changed.
+(rerunfilecheck)             Checksum: 1A2ABCEC83E43815DAA5292E71CB5FEB;2825.
 
-
-Package rerunfilecheck Warning: File `thesis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `thesis.out':
-(rerunfilecheck)             Before: 5FD2ECC915280B966CA369E4A3322D4A;1518
-(rerunfilecheck)             After:  1A2ABCEC83E43815DAA5292E71CB5FEB;2825.
 
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 177.
  ) 
 Here is how much of TeX's memory you used:
- 9181 strings out of 493921
- 134604 string characters out of 3144882
- 227044 words of memory out of 3000000
- 12139 multiletter control sequences out of 15000+200000
+ 9214 strings out of 493921
+ 135718 string characters out of 3144882
+ 230055 words of memory out of 3000000
+ 12164 multiletter control sequences out of 15000+200000
  39430 words of font info for 71 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 41i,11n,50p,462b,356s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,12n,52p,462b,501s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:
 /Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/P
@@ -1007,9 +969,9 @@ gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Progr
 am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program
  Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Program F
 iles (x86)/MiKTeX 2.9/fonts/type1/public/eurosym/feymr10.pfb>
-Output written on thesis.pdf (33 pages, 745946 bytes).
+Output written on thesis.pdf (33 pages, 762399 bytes).
 PDF statistics:
- 361 PDF objects out of 1000 (max. 8388607)
+ 474 PDF objects out of 1000 (max. 8388607)
  98 named destinations out of 1000 (max. 500000)
- 182 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 342 words of extra memory for PDF output out of 10000 (max. 10000000)
 
