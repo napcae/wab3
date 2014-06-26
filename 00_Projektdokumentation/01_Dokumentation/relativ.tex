@@ -48,13 +48,13 @@ Fällt das Gerät wegen eines Hardware-, Softwarefehlers oder mangelnder Stromve
 Die Genauigkeit der gewonnenen Daten hängt von vielen Faktoren ab. 
 GPS-unterstützte Tracking-Applikationen, wie die für das Projekt ausgewählten, sind besonders  anfällig, ungenaue Daten zu generieren. 
 So beträgt bei guten Empfangsbedingungen die erzielbare Genauigkeit ohne Korrektur etwa 5 bis 20m. 
-Da aber die meisten gängigen GPS-Empfänger auch WAAS/EGNOS-Korrektursignale empfangen können, verbessert sich die tatsächlich erzielbare Genauigkeit auf 1 bis 3m.
+Da aber die meisten gängigen GPS-Empfänger auch WAAS/EGNOS-Korrektursignale empfangen können, verbessert sich die tatsächlich erzielbare Genauigkeit auf 1 bis 3m. \\
 Da optimale Empfangsbedingungen jedoch nicht häufig erreicht  werden ist die Genauigkeit dieser Apps sehr umstritten.
 Dies liegt unter anderem daran, dass sich die GPS-Funkwellen sich aufgrund der sehr hohen Frequenz quasi-optisch ausbreiten und der GPS-Empfänger deshalb immer zu möglichst vielen Satelliten Kontakt haben sollte. 
-Daraus resultieren auch die meisten Fehler in der Positionsberechnung, die durch zu starke Dämpfung, Reflexion einzelner oder aller GPS-Signale und durch den Empfang von zu wenig Satelliten verursacht wird.
+Daraus resultieren auch die meisten Fehler in der Positionsberechnung, die durch zu starke Dämpfung, Reflexion einzelner oder aller GPS-Signale und durch den Empfang von zu wenig Satelliten verursacht wird. \\
 So ist zum Beispiel in Tälern oder in Häuserschluchten der Kontakt zum Himmel sehr eingeschränkt. 
 Dadurch können weniger Satelliten empfangen werden und es treten sogenannte Reflexionen auf. 
-Eine Dämpfung hingegen tritt zum Beispiel im Wald unter dichtem Blätterdach auf, oder auch wenn der GPS-Empfänger an einer ungünstigen Stelle im Fahrzeug positioniert wurde.
+Eine Dämpfung hingegen tritt zum Beispiel im Wald unter dichtem Blätterdach auf, oder auch wenn der GPS-Empfänger an einer ungünstigen Stelle im Fahrzeug positioniert wurde. \\
 Im Gegensatz zu aktuell gängigen GPS-Empfängern, die sowohl den erfolgreichen Empfang des WAAS/EGNOS-Korrektursignals, als auch einen Schätzwert für die Genauigkeit der Positionsberechnung anzeigen, ist dies in den mobilen Applikationen nicht gegeben. 
 Bei schlechten Empfangsbedingungen können sich diese Genauigkeitsangaben sehr von den wirklichen Daten unterscheiden.  
 So kann sich die tatsächlich gelaufene Strecke von der in Moves angezeigten maßgeblich unterscheiden, da die Angabe dort eine Schnittmenge aus der Schrittanzahl und der GPS-Daten darstellt.\ref{fig:GPS-Map}
@@ -66,16 +66,18 @@ Wide Area Augmentation System ist in ein in Nord-Amerika genutztes bodengestütz
 EGNOS: 
 European Geostationary Navigation Overlay Service ist in ein in Europa genutztes bodengestütztes System, um GPS-Positionsabweichungen zu korrigieren
 
-
-%% systematische, zufällige fehler
-
-
 %% Lösung: Weitere Geräte, Redundanz, dedizierte Geräte
 
 %% ==============================
 \section{Statistische Schwierigkeiten}
 %% ==============================
 \label{ch:Relativierung:sec:StatistischeSchwierigkeiten}
+
+Neben den technischen, systematischen und zufälligen Fehlern, können auch statistische Schwierigkeiten das Experiment beeinflussen.
+Beispielsweise handelt es sich bei einem empirischen Selbstversuch von drei Personen nicht um eine repräsentative Probe.
+Auch ist der Zeitraum der Datenerhebung mit etwa einem Monat zu kurz um eine Veränderung des Nutzers festzustellen.
+Diese Probleme ließe sich jedoch durch eine größere Anzahl an Testpersonen und einen längeren Zeitraum einfach lösen.
+Außerdem könnte man durch eine Kontrollgruppe das Ergebnis mit der Quantified Self Gruppe besser vergleichen. 
 
 
 %% probleme: partner im bett, zeitraum, mehr testpersonen, leider keine repräsentative 
