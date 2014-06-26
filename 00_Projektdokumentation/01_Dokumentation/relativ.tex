@@ -1,0 +1,94 @@
+%% relativ.tex
+%% $Id: analyse.tex 61 2012-05-03 13:58:03Z bless $
+
+%% ==============================
+\chapter{Relativierung}
+%% ==============================
+\label{ch:Relativierung}
+
+Diese Kapitel beschäftigt sich mit möglichen Fehlerquellen die während der Datenerhebung und Auswertung auftreten können. 
+Dabei wird Unterschieden in technische, sowie statistische Schwierigkeiten die während der Aufzeichnungsphase im Projekt auftreten können.
+
+%% ==============================
+\section{Systematische und zufällige Fehler}
+%% ==============================
+\label{ch:Relativierung:sec:SystematischeUndZufälligeFehler}
+
+Vor und während der Erhebung der Daten können unterschiedliche technische Probleme auftreten.
+Unterschieden werden diese in systematische und zufällige Fehler.
+
+Diese werden im Folgenden näher erläutert.
+
+\subsection{Kalibirierung}
+%% ==============================
+\label{ch:Relativierung:sec:SystematischeUndZufälligeFehler:subsec:Kalibrierung}
+%% ==============================
+
+Zu Beginn der Aufzeichnungsphase initialisieren die Apps Moves \ref{ch:Apps:sec:Moves} und Sleep Cycle \ref{ch:Apps:sec:SleepCycle} die Kalibrierung.
+Diese sollte von dem jeweiligen Nutzer des Quantified Self Tools selbst durchgeführt werden.
+Eine fehlenede oder  falsche Kalibrierung der Software bzw. Hardware ist ein systematischer Fehler, er führt zu einer Verzerrung der erhobenen Daten und im weiteren Schritt zu einer unzutreffenden Interpretation des Ergebnis.
+Diese fehlerhaften Resultate können die Beantwortung der Leitfrage somit negativ beeinflussen. 
+
+
+\subsection{Ausfallsicherheit}
+%% ==============================
+\label{ch:Relativierung:sec:SystematischeUndZufälligeFehler:subsec:Ausfallsicherheit}
+%% ==============================
+
+Im Verlauf der Aufzeichnung kann es zu weiteren Fehlern kommen.
+Durch die Benutzung von Sensoren und Techniken für Ortung und Bewegung des Aufzeichnungsgerätes, steigt die Belastung der benutzten Akkumulatoren.
+Der gesteigerte Energieverbrauch kann während eines durchschnittlichen Alltag zu einer vorzeitigen Notwendigkeit des Ladevorgangs führen.
+Fällt das Gerät wegen eines Hardware-, Softwarefehlers oder mangelnder Stromversorgung aus, so fehlen Daten die wiederum das Endergebnis verfälschen.
+
+\subsection{Genauigkeit}
+%% ==============================
+\label{ch:Relativierung:sec:SystematischeUndZufälligeFehler:subsec:Genauigkeit}
+%% ==============================
+
+Die Genauigkeit der gewonnenen Daten hängt von vielen Faktoren ab. 
+GPS-unterstützte Tracking-Applikationen, wie die für das Projekt ausgewählten, sind besonders  anfällig, ungenaue Daten zu generieren. 
+So beträgt bei guten Empfangsbedingungen die erzielbare Genauigkeit ohne Korrektur etwa 5 bis 20m. 
+Da aber die meisten gängigen GPS-Empfänger auch WAAS/EGNOS-Korrektursignale empfangen können, verbessert sich die tatsächlich erzielbare Genauigkeit auf 1 bis 3m.
+Da optimale Empfangsbedingungen jedoch nicht häufig erreicht  werden ist die Genauigkeit dieser Apps sehr umstritten.
+Dies liegt unter anderem daran, dass sich die GPS-Funkwellen sich aufgrund der sehr hohen Frequenz quasi-optisch ausbreiten und der GPS-Empfänger deshalb immer zu möglichst vielen Satelliten Kontakt haben sollte. 
+Daraus resultieren auch die meisten Fehler in der Positionsberechnung, die durch zu starke Dämpfung, Reflexion einzelner oder aller GPS-Signale und durch den Empfang von zu wenig Satelliten verursacht wird.
+So ist zum Beispiel in Tälern oder in Häuserschluchten der Kontakt zum Himmel sehr eingeschränkt. 
+Dadurch können weniger Satelliten empfangen werden und es treten sogenannte Reflexionen auf. 
+Eine Dämpfung hingegen tritt zum Beispiel im Wald unter dichtem Blätterdach auf, oder auch wenn der GPS-Empfänger an einer ungünstigen Stelle im Fahrzeug positioniert wurde.
+Im Gegensatz zu aktuell gängigen GPS-Empfängern, die sowohl den erfolgreichen Empfang des WAAS/EGNOS-Korrektursignals, als auch einen Schätzwert für die Genauigkeit der Positionsberechnung anzeigen, ist dies in den mobilen Applikationen nicht gegeben. 
+Bei schlechten Empfangsbedingungen können sich diese Genauigkeitsangaben sehr von den wirklichen Daten unterscheiden.  
+So kann sich die tatsächlich gelaufene Strecke von der in Moves angezeigten maßgeblich unterscheiden, da die Angabe dort eine Schnittmenge aus der Schrittanzahl und der GPS-Daten darstellt.\ref{fig:GPS-Map}
+
+
+Erklärung Abkürzungen
+WAAS: 
+Wide Area Augmentation System ist in ein in Nord-Amerika genutztes bodengestütztes System, um GPS-Positionsabweichungen zu korrigieren
+EGNOS: 
+European Geostationary Navigation Overlay Service ist in ein in Europa genutztes bodengestütztes System, um GPS-Positionsabweichungen zu korrigieren
+
+
+%% systematische, zufällige fehler
+
+
+%% Lösung: Weitere Geräte, Redundanz, dedizierte Geräte
+
+%% ==============================
+\section{Statistische Schwierigkeiten}
+%% ==============================
+\label{ch:Relativierung:sec:StatistischeSchwierigkeiten}
+
+
+%% probleme: partner im bett, zeitraum, mehr testpersonen, leider keine repräsentative 
+%% lösung: vergleichsgruppe, mehr zeit/längerer zeitraum,
+
+%% Lösung: Testgruppen
+
+
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: "thesis"
+%%% End: 
+
+
+
