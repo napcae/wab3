@@ -34,6 +34,7 @@
 
 \usepackage[T1]{url} % much like \verb allow line breaks for paths and URLs
 
+\usepackage{pgfplots} % für Graphe
 % Postscript Fonts
 % times, palatino, newcent, bookman, garamond, basker, 
 % lucid, lucidbrb, lucidbry (Kommerzielle Fonts von Y&Y)
