@@ -45,26 +45,17 @@ Fällt das Gerät wegen eines Hardware-, Softwarefehlers oder mangelnder Stromve
 \label{ch:Relativierung:sec:SystematischeUndZufälligeFehler:subsec:Genauigkeit}
 %% ==============================
 
-Die Genauigkeit der gewonnenen Daten hängt von vielen Faktoren ab. 
-GPS-unterstützte Tracking-Applikationen, wie die für das Projekt ausgewählten, sind besonders  anfällig, ungenaue Daten zu generieren. 
-So beträgt bei guten Empfangsbedingungen die erzielbare Genauigkeit ohne Korrektur etwa 5 bis 20m. 
-Da aber die meisten gängigen GPS-Empfänger auch WAAS/EGNOS-Korrektursignale empfangen können, verbessert sich die tatsächlich erzielbare Genauigkeit auf 1 bis 3m. \\
-Da optimale Empfangsbedingungen jedoch nicht häufig erreicht  werden ist die Genauigkeit dieser Apps sehr umstritten.
-Dies liegt unter anderem daran, dass sich die GPS-Funkwellen sich aufgrund der sehr hohen Frequenz quasi-optisch ausbreiten und der GPS-Empfänger deshalb immer zu möglichst vielen Satelliten Kontakt haben sollte. 
-Daraus resultieren auch die meisten Fehler in der Positionsberechnung, die durch zu starke Dämpfung, Reflexion einzelner oder aller GPS-Signale und durch den Empfang von zu wenig Satelliten verursacht wird. \\
-So ist zum Beispiel in Tälern oder in Häuserschluchten der Kontakt zum Himmel sehr eingeschränkt. 
-Dadurch können weniger Satelliten empfangen werden und es treten sogenannte Reflexionen auf. 
-Eine Dämpfung hingegen tritt zum Beispiel im Wald unter dichtem Blätterdach auf, oder auch wenn der GPS-Empfänger an einer ungünstigen Stelle im Fahrzeug positioniert wurde. \\
-Im Gegensatz zu aktuell gängigen GPS-Empfängern, die sowohl den erfolgreichen Empfang des WAAS/EGNOS-Korrektursignals, als auch einen Schätzwert für die Genauigkeit der Positionsberechnung anzeigen, ist dies in den mobilen Applikationen nicht gegeben. 
-Bei schlechten Empfangsbedingungen können sich diese Genauigkeitsangaben sehr von den wirklichen Daten unterscheiden.  
+Die Genauigkeit der gewonnenen Daten hängt hauptsächlich von den im Smartphone verbauten Sensoren, wie Bewegungssensor und Annäherungssensor, und  dem GPS-Signal ab.
+So sind GPS-unterstützte Tracking-Applikationen, besonders  anfällig, ungenaue Daten zu generieren.
+Da jede Tracking-Applikation mit einem oder mehreren Senoren arbeitet, ist das Projekt dadurch direkt betroffen. 
+Unter optimalen Bedingungen für ein sehr genaues Tracking möglich, dass eine erzielbare Genauigkeit ohne Korrektur von etwa 5 bis 20 Metern trifft. 
+Mit Korrekturen an der Positionsbestimmung liegt hier sogar die Genauigkeit sogar bei 1 bis 3 Metern. \cite{web:GPS}
+Da aber nicht immer unter optimalen Bedingungen, sondern unter zum Beispiel schlechten Empfangsbedingungen gearbeitet wird, können sich diese Genauigkeitsangaben sehr von den wirklichen Daten unterscheiden.  
 So kann sich die tatsächlich gelaufene Strecke von der in Moves angezeigten maßgeblich unterscheiden, da die Angabe dort eine Schnittmenge aus der Schrittanzahl und der GPS-Daten darstellt.\ref{fig:GPS-Map}
-
-
-Erklärung Abkürzungen
-WAAS: 
-Wide Area Augmentation System ist in ein in Nord-Amerika genutztes bodengestütztes System, um GPS-Positionsabweichungen zu korrigieren
-EGNOS: 
-European Geostationary Navigation Overlay Service ist in ein in Europa genutztes bodengestütztes System, um GPS-Positionsabweichungen zu korrigieren
+Auch die Anzahl der Schritte kann von der Wirklichen abweichen, da der Bewegungssensor lediglich die „Auf- und Abbewegung“ registriert und diese in Relation zu den empfangenen GPS-Daten nutzt, um die Schrittanzahl zu regenerieren.
+Weiter wird mit der Anwendung „Hueman“ die persönlichen Meinung des Nutzers über sein derzeitiges Wohlbefinden festgehalten. 
+Da dieses aber meist nur ein ungefährer Wert ist, sind auch hier Abweichungen zum wirklichen Wohlbefinden möglich.
+Das kann zu einer Beeinträchtigung oder Verfälschung des Projektergebnisses führen.
 
 %% Lösung: Weitere Geräte, Redundanz, dedizierte Geräte
 
