@@ -1,6 +1,8 @@
-## Sleep Cycle
+## Sleep Cycle - der Wecker für spezifische Schlafmuster
 
-Wir bewegen uns in den verschieden Phasen des Schlafes unterschiedlich stark. Die Software "Sleep Cycle" benutzt daher das eingebaute "Accelerometer" (dt. Beschleunigungssensor) des Aufzeichungsgerätes (Smartphone), um die diese Bewegungen zu erfassen. Die Bewegungen sind ausschlaggebend für die Bestimmung der Zustandsphasen des Schlafes. Man fühlt sich ausgeschlafener, wenn man in den Phasen des leichten Schlafes geweckt wird (*Belegen*). 
+Wir bewegen uns in den verschieden Phasen des Schlafes unterschiedlich stark. Die Software "Sleep Cycle" benutzt daher das eingebaute "Accelerometer" (dt. Beschleunigungssensor) des Aufzeichungsgerätes (Smartphone), um die diese Bewegungen zu erfassen. Die Bewegungen sind ausschlaggebend für die Bestimmung der Zustandsphasen des Schlafes. Der Alarm des integrierten Wecker ertönt, wenn sich der benutzer in der Leichtesten Phase des Schlafes befindent. Man fühlt sich ausgeschlafener und erholter, wenn man in den Phasen des leichten Schlafes geweckt wird (*Belegen*). 
+
+Zudem bietet "Sleep Cylce" ein Tracking und Analyse Funktion. Diese zeigen dem Nutzer Informationen über deren Schlaf sowie Mögliche Ursachen für Störung. Dafür analysiert die Software die Bewegungen während des Schlafes und erfasst Informationen über den Vergangen Tag des Benutzers. Alle erfassten Daten werden in unterschiedlichen Grafiken und Plots dargestellt.
 
 *Have you ever woken up feeling completely wrecked when the alarm clock goes off, despite the fact that you have slept “enough” hours? When this happens you have probably been awakened during a deep sleep phase, and your whole day can turn into one long zombie marathon.*
 
@@ -20,7 +22,6 @@ Während des Schlafes durchläuft der Organismus mehrmals verschiedene Stadien. 
 * Stadium 4
 * REM Phase
 
-“This isn’t really something new. These so called bio-alarm clocks have been around for years and work very well, but they usually come with a hefty $200 price tag. I realized that the iPhone has all the components needed, and decided to make an alarm clock that works exactly the same, but sell it for a dollar or two instead.” Maciek Drejak, the programmer behind the application, says.
 
 
 ![Tagesinformation](C:\Users\Flo\Pictures\2014-06-21\002.png)

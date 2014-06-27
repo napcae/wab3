@@ -1,0 +1,93 @@
+%% relativ.tex
+%% $Id: analyse.tex 61 2012-05-03 13:58:03Z bless $
+
+%% ==============================
+\chapter{Relativierung}
+%% ==============================
+\label{ch:Relativierung}
+
+Diese Kapitel beschäftigt sich mit möglichen Fehlerquellen die während der Datenerhebung und Auswertung auftreten können. 
+Dabei wird Unterschieden in technische, sowie statistische Schwierigkeiten die während der Aufzeichnungsphase im Projekt auftreten können.
+
+%% ==============================
+\section{Systematische und zufällige Fehler}
+%% ==============================
+\label{ch:Relativierung:sec:SystematischeUndZufälligeFehler}
+
+Vor und während der Erhebung der Daten können unterschiedliche technische Probleme auftreten.
+Unterschieden werden diese in systematische und zufällige Fehler.
+
+Diese werden im Folgenden näher erläutert.
+
+\subsection{Kalibirierung}
+%% ==============================
+\label{ch:Relativierung:sec:SystematischeUndZufälligeFehler:subsec:Kalibrierung}
+%% ==============================
+
+Zu Beginn der Aufzeichnungsphase initialisieren die Apps Moves [\ref{ch:Apps:sec:Moves}] und Sleep Cycle [\ref{ch:Apps:sec:SleepCycle}] die Kalibrierung.
+Diese sollte von dem jeweiligen Nutzer des Quantified Self Tools selbst durchgeführt werden.
+Eine fehlenede oder  falsche Kalibrierung der Software bzw. Hardware ist ein systematischer Fehler, er führt zu einer Verzerrung der erhobenen Daten und im weiteren Schritt zu einer unzutreffenden Interpretation des Ergebnis.
+Diese fehlerhaften Resultate können die Beantwortung der Leitfrage somit negativ beeinflussen. 
+
+
+\subsection{Ausfallsicherheit}
+%% ==============================
+\label{ch:Relativierung:sec:SystematischeUndZufälligeFehler:subsec:Ausfallsicherheit}
+%% ==============================
+
+Im Verlauf der Aufzeichnung kann es zu weiteren Fehlern kommen.
+Durch die Benutzung von Sensoren und Techniken für Ortung und Bewegung des Aufzeichnungsgerätes, steigt die Belastung der benutzten Akkumulatoren.
+Der gesteigerte Energieverbrauch kann während eines durchschnittlichen Alltag zu einer vorzeitigen Notwendigkeit des Ladevorgangs führen.
+Fällt das Gerät wegen eines Hardware-, Softwarefehlers oder mangelnder Stromversorgung aus, so fehlen Daten die wiederum das Endergebnis verfälschen.
+
+\subsection{Genauigkeit}
+%% ==============================
+\label{ch:Relativierung:sec:SystematischeUndZufälligeFehler:subsec:Genauigkeit}
+%% ==============================
+
+Die Genauigkeit der gewonnenen Daten hängt hauptsächlich von den im Smartphone verbauten Sensoren, wie Bewegungssensor und Annäherungssensor, und  dem GPS-Signal ab.
+So sind GPS-unterstützte Tracking-Applikationen, besonders  anfällig, ungenaue Daten zu generieren.
+Da jede Tracking-Applikation mit einem oder mehreren Senoren arbeitet, ist das Projekt dadurch direkt betroffen. 
+Unter optimalen Bedingungen für ein sehr genaues Tracking möglich, dass eine erzielbare Genauigkeit ohne Korrektur von etwa 5 bis 20 Metern trifft. 
+Mit Korrekturen an der Positionsbestimmung liegt hier sogar die Genauigkeit sogar bei 1 bis 3 Metern. \cite{web:GPS}
+Da aber nicht immer unter optimalen Bedingungen, sondern unter zum Beispiel schlechten Empfangsbedingungen gearbeitet wird, können sich diese Genauigkeitsangaben sehr von den wirklichen Daten unterscheiden.  
+So kann sich die tatsächlich gelaufene Strecke von der in Moves angezeigten maßgeblich unterscheiden, da die Angabe dort eine Schnittmenge aus der Schrittanzahl und der GPS-Daten darstellt.\ref{fig:GPS-Map}
+Auch die Anzahl der Schritte kann von der Wirklichen abweichen, da der Bewegungssensor lediglich die „Auf- und Abbewegung“ registriert und diese in Relation zu den empfangenen GPS-Daten nutzt, um die Schrittanzahl zu regenerieren.
+Weiter wird mit der Anwendung „Hueman“ die persönlichen Meinung des Nutzers über sein derzeitiges Wohlbefinden festgehalten. 
+Da dieses aber meist nur ein ungefährer Wert ist, sind auch hier Abweichungen zum wirklichen Wohlbefinden möglich.
+Das kann zu einer Beeinträchtigung oder Verfälschung des Projektergebnisses führen.
+
+%% Lösung: Weitere Geräte, Redundanz, dedizierte Geräte
+
+%% ==============================
+\section{Statistische Schwierigkeiten}
+%% ==============================
+\label{ch:Relativierung:sec:StatistischeSchwierigkeiten}
+
+Neben den technischen, systematischen und zufälligen Fehlern, können auch statistische Schwierigkeiten das Experiment beeinflussen.
+Beispielsweise handelt es sich bei einem empirischen Selbstversuch von drei Personen nicht um eine repräsentativ einwandfreie Probe.
+Auch ist der Zeitraum der Datenerhebung mit etwa einem Monat zu kurz um eine Veränderung des Nutzers festzustellen. \\
+Diese Probleme ließe sich jedoch durch eine größere Anzahl an Testpersonen und einen längeren Zeitraum einfach lösen.
+Außerdem könnte man durch eine Kontrollgruppe das Ergebnis mit der Quantified Self Gruppe besser vergleichen. 
+
+Ein weiteres Problem ist die fehlende Konstanz innerhalb der Versuchsumgebung.
+Unter anderem ist es nicht immer garantiert im selben Bett zu schlafen, da das Gerät auf ein bestimmtes Bett kalibriert wurde und in einem anderen Bett möglicherweise differenzierte Daten liefert.\\
+Desweiteren besteht die Eventualität, dass die Bewegungen im Schlaf mit denen des Partner im Aufzeichungsgerät bzw. der Software - namentlich „Sleep Cycle“[\ref{ch:Apps:sec:SleepCycle}] - überlagert.
+
+Es ist schwierig eine objektive Selbsteinschätzung zu gewährleisten. Die Apps „Sleep Cycle“ und „Hueman“ benötigen allerdings genau diese Information.
+Dies ist als ein weitere Faktor der bei der Betrachtung der Ergebnisse beachtet werden muss.
+
+%% probleme: partner im bett, zeitraum, mehr testpersonen, leider keine repräsentative 
+%% lösung: vergleichsgruppe, mehr zeit/längerer zeitraum,
+
+%% Lösung: Testgruppen
+
+
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: "thesis"
+%%% End: 
+
+
+
