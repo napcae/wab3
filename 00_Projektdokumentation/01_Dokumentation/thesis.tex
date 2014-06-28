@@ -14,17 +14,17 @@
 \usepackage[numbers,sort&compress]{natbib}
 \usepackage{float}
 \restylefloat{table} %!damit tabellen dort auftauchen, wo sie beschrieben werden([H] benutzen!)
-\usepackage[official]{eurosym} % fÃŒr Eurosymbol
-\usepackage{listings} %fÃŒr Quellcode
-\lstset{
-  literate={Ã}{{\"O}}1
-{Ã}{{\"A}}1
-{Ã}{{\"U}}1
-{Ã}{{\ss}}2
-{ÃŒ}{{\"u}}1
-{Ã€}{{\"a}}1
-{Ã¶}{{\"o}}1
-}
+\usepackage[official]{eurosym} % für Eurosymbol
+%\usepackage{listings} %für Quellcode
+% \lstset{
+%   literate={Ã}{{\"O}}1
+% {Ã}{{\"A}}1
+% {Ã}{{\"U}}1
+% {Ã}{{\ss}}2
+% {ÃŒ}{{\"u}}1
+% {Ã€}{{\"a}}1
+% {Ã¶}{{\"o}}1
+% }
 % \usepackage{varioref}
 % \usepackage{verbatim}
 % \usepackage{float}    %z.B. \floatstyle{ruled}\restylefloat{figure}
@@ -40,9 +40,9 @@
 %% Informationen fÃŒr die PDF-Datei
 \hypersetup{
  pdfauthor={Andreas Hornig, Florian Weber, Chi Trung Nguyen},
- pdftitle={Not set}
- pdfsubject={Not set},
- pdfkeywords={Not set}
+ pdftitle={Lässt sich das Wohlempfinden durch Quantified Self verbessern?}
+ pdfsubject={Quantified Self},
+ pdfkeywords={Quantified Self, QS, wissenschaftliche Arbeit}
 }
 
 % Macros, nicht unbedingt notwendig
@@ -88,7 +88,7 @@ einleitung,% Motivation, Zielsetzung, Gliederung
 grundlagen,% Grundlagen 
 apps,
 relativ, %Relativierung, mÃ¶gliche Fehlerquellen (technische, persÃ¶nliche, falsche Wahrnehmung)
-eval,
+%eval,
 analyse,   % Problembeschreibung (Detail) und Related Work
 zusammenf  % Zusammenfassung der Ergebnisse und Ausblick
 }
@@ -132,7 +132,7 @@ zusammenf  % Zusammenfassung der Ergebnisse und Ausblick
 \include{grundlagen}  % Grundlagen
 \include{apps}
 \include{relativ} 	  %Fehleranalyse
-\include{eval}        % Evaluierung
+%\include{eval}        % Evaluierung
 \include{analyse}     % Analyse
 \include{zusammenf}   % Zusammenfassung und Ausblick
 
@@ -172,7 +172,7 @@ zusammenf  % Zusammenfassung der Ergebnisse und Ausblick
 \ifnotdraft{
 \cleardoublepage
 \phantomsection
-\printindex            % Index, Stichwortverzeichnis
+%\printindex            % Index, Stichwortverzeichnis
 }
 \end{document}
 %% end of file
