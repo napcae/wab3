@@ -1,6 +1,7 @@
 %% apps.tex
 %% $Id: apps.tex 61 2012-05-03 13:58:03Z bless $
 %%
+% !TEX root = thesis.tex
 
 \chapter{Auswahl der Applikationen}
 \label{ch:Apps}
@@ -10,11 +11,11 @@ Die Self-Tracking Apps stellen Optionen zur Verfügung, um einzelne oder mehrere
 Die meisten Apps beschränken sich dabei auf bestimmte Self-Tracking-Aktivitäten, z.B. nur die Erfassung des Ortes, der Stimmung oder der Arbeitszeiten, andere versuchen umfassende Datensammlungen zu realisieren und in Relation zu setzen, z.B. LifeMash \cite{web:SleepCycle}. \\
 Für den Gesundheitsbereich beziffert Rauner in seinem Artikel „Das Handy als Hausarzt“ über 15.000 Gesundheits-App, die aktuell auf dem Markt verfügbar sind. 
 Viele der Apps bieten die Möglichkeit die gesammelten Messwerte über das Internet im dazugehörigen jeweiligen eigenen Internetprofil zu speichern oder bestimmte Daten über soziale Netzwerke mit Freunden zu teilen. 
-Bekannte Beispiele sind hier z.B. die auf Echtzeit-GPS-Lokalisierungen basierenden Fitnesstracker Endomondo und RunKeeper, die sich mit dem Facebookaccount verknüpfen lassen. 
+Bekannte Beispiele sind hier z.B. die auf Echtzeit-GPS-Lokalisierung basierenden Fitnesstracker Endomondo und RunKeeper, die sich mit dem Facebook-Account verknüpfen lassen. 
 \\
 \\
 Zur Durchführung und Erhebung der Daten wurden drei verschiedene mobile Anwendungen von der Projektgruppe ausgesucht und festgelegt.
-Zum Tracken der Aktivtäten wurde die kostenlose Anwendung Moves ausgewählt, für das Erfassen der Schlafrhythmen die kostenpflichtige Anwendung SleepCycle und für die Erfassung der Stimmung die Anwendung Hueman.
+Zum Tracken der Aktivtäten wurde die kostenlose Anwendung Moves ausgewählt, für das Erfassen der Schlafrhythmen die kostenpflichtige Anwendung Sleep Cycle und für die Erfassung der Stimmung die Anwendung Hueman.\\
 Durch diese Applikationen sind die Hauptbereiche, auf denen das Augenmerk für ein erfolgreiches Durchführen des Projektes liegt, abgedeckt.
 Die Apps werden im Folgenden genauer beschrieben.
 
@@ -31,15 +32,13 @@ Die Apps werden im Folgenden genauer beschrieben.
 Moves ist eine mobile Quantified-Self-Anwendung, die die täglichen Aktivitäten trackt, mit der Hoffnung für den Anwender, durch die gewonnenen Daten besser in Form zu kommen. 
 Seit Anfang 2013 ist die Applikation, die ursprünglich nur für iPhone und iPad entwickelt wurde kostenlos in den AppStores erhältlich. 
 Die Moves-App wurde mittlerweile mehr als 3,5 Millionen Mal heruntergeladen und erhielt im Jahr 2013 zudem die Auszeichnung als „Best of AppStore 2013“.\cite{web:MovesApp}
-Seit Anfang 2014 ist die Anwendung nun auch auf Android-Plattformen nutzbar und kann so auch dort das Radfahren, Wandern oder Laufen tracken.
+Seit Anfang 2014 ist die Anwendung nun auch auf Android-Plattformen nutzbar und kann so auch dort das Radfahren, Wandern oder Laufen tracken(Abbildung \ref{fig:Haupt-UI}).
 
-\ref{fig:Haupt-UI}
-
-\begin{figure}[h]
-\centering
-\includegraphics[scale=0.3]{images/moves-app-main-ui.PNG}
-\caption{Moves Haupt-UI \cite{fig:Haupt-UI}}
-\label{fig:Haupt-UI}
+\begin{figure}[H]
+ \centering
+ \includegraphics[scale=0.3]{images/moves-app-main-ui.PNG}
+ \caption{Moves Haupt-UI \cite{fig:Haupt-UI}}
+ \label{fig:Haupt-UI}
 \end{figure}
 
 \subsection{Design und Features}
@@ -60,32 +59,53 @@ Das heißt natürlich nicht, dass die Anwendung nur online genutzt werden kann u
 Eine Volumenschonende Nutzung - also offline - ist möglich, da die App die notwendigen Daten auch so sammelt, diese aber erst analysieren und auswerten kann, wenn wieder eine aktive Verbindung zum Internet, z.B. durch WiFi, besteht.   
 \\
 Die Benutzeroberfläche an sich ist eher spärlich gehalten. 
-Es gibt lediglich die „Storyline“ bzw. die Timeline, die herunterscrollbar ist. 
+Es gibt lediglich die „Storyline“ bzw. die Timeline \ref{fig:Timeline}, die herunterscrollbar ist. 
 Weiterhin existieren dreierlei Kreistypen, die oberhalb der Timeline angebracht sind und die jeweilige Aktivität, wie Wandern, Radfahren oder Laufen, darstellt. 
 Diese zeigen dem Nutzer neben den getätigten „Schritten“ auch die Menge an verbrauchten Kalorien und die zurückgelegte Strecke in Kilometern an. 
 Weiterhin bietet die die App Moves die Möglichkeiten Fortschritte herauszukristallisieren, da man aktuelle Aktivitäten mit denen vom Vortag oder der Vorwoche vergleichen kann.   
 \\
-\ref{fig:Timeline}
 
-\begin{figure}[h]
-\centering
-\includegraphics[scale=0.3]{images/moves_app_screenshot.png}
-\caption{Moves Timeline \cite{fig:Timeline}}
-\label{fig:Timeline}
+\begin{figure}[H]
+ \centering
+ \includegraphics[scale=0.3]{images/moves_app_screenshot.png}
+ \caption{Moves Timeline \cite{fig:Timeline}}
+ \label{fig:Timeline}
 \end{figure}
 
 Die Einstellungen der Applikation sind ziemlich minimalistisch gehalten, da der Nutzer lediglich die Möglichkeiten hat, die Batterielebensdauer durch die Auswahl des stationären Einsatzes zu minimieren, die Messeinheiten zwischen „metrisch“ und „imperial“ ändern und einen täglich Aktivitätsbericht als Benachrichtigung erhalten kann. 
 \\
+Für sportbegeisterte jeglicher Art bietet Moves zusätzlich die Möglichkeit einzelne Sportaktivitäten manuell zu erfassen.
+Hierfür kann, wie in der Abbildung \ref{fig:SportActivity} zu sehen ist, die Sportart und die Dauer der ausgeführten Aktivität ausgewählt werden.
+Mit Hilfe dieser Daten und aus den im Alltag aufgenommen Schritten, kann der Kalorienzähler \ref{fig:Calories} der App den täglichen Energieverbrauch berechnen.
+Um die Funktion des Kalorienzählers nutzen zu können, muss der Nutzer das Geschlecht, Geburtsjahr, Größe und Gewicht angeben.
+Diese Informationen erhöhen die Genauigkeit bei der Berechnung der verbrauchten Kalorien.
+\\
+\begin{figure}[]
+  \centering
+  \begin{minipage}[t]{0.47\textwidth}
+    \centering
+    \includegraphics[scale=0.3]{images/moves-app-add-activity.png} 
+    \caption{Moves Aktivitäten hinzufügen \cite{fig:SportActivity}}
+    \label{fig:SportActivity}
+  \end{minipage}
+  \begin{minipage}[t]{0.47\textwidth}
+    \centering
+    \includegraphics[scale=0.3]{images/moves-app-calories.png}   
+    \caption{Moves Kalorienzähler \cite{fig:Calories}}
+    \label{fig:Calories}
+  \end{minipage}
+\end{figure}
+
 Die Einbindung durch sogenannte „Third-Party-Apps“, also von Anwendungen anderer Hersteller, ist seit Anfang 2014 möglich und erweitert das Repertoire von Moves enorm. 
 So ist die Einbindung von bis zu 13 anderen Apps, wie TicTrac oder Bounts derzeit möglich.\cite{web:MovesThird}
 \\
 \ref{fig:Anwendungen}
 
-\begin{figure}[h]
-\centering
-\includegraphics[scale=0.3]{images/qs-anwndungen-gadgets.png}
-\caption{Verschiedene QS Anwendungen und Gadgets \cite{fig:Anwendungen}}
-\label{fig:Anwendungen}
+\begin{figure}[H]
+ \centering
+ \includegraphics[scale=0.3]{images/qs-anwndungen-gadgets.png}
+ \caption{Verschiedene QS Anwendungen und Gadgets \cite{fig:Anwendungen}}
+ \label{fig:Anwendungen}
 \end{figure}
 
 \subsection{Die Performance}
@@ -100,7 +120,7 @@ Auch in Hinblick auf die angezeigte Distanz und Dauer war Moves so akkurat wie e
 \\
 \ref{fig:GPS-Map}
 
-\begin{figure}[h]
+\begin{figure}[H]
 	\centering
 	\includegraphics[scale=0.3]{images/moves-app-map.PNG}
 	\caption{Moves GPS-Map \cite{fig:GPS-Map}}
@@ -157,10 +177,10 @@ Die Applikation vergleicht die einzelnen gewonnenen Daten miteinander und gibt d
 \ref{fig:Vergleich}
 
 \begin{figure}[H]
-\centering
-\includegraphics[scale=0.3]{images/hueman-matched-data.PNG}
-\caption{Hueman Vergleich \cite{fig:Vergleich}}
-\label{fig:Vergleich}
+ \centering
+ \includegraphics[scale=0.3]{images/hueman-matched-data.PNG}
+ \caption{Hueman Vergleich \cite{fig:Vergleich}}
+ \label{fig:Vergleich}
 \end{figure}
 
 
@@ -211,10 +231,10 @@ Mit Hilfe der ermittelten Phase und dem gewählten Weckzeitraum, ertönt der Wec
 
 
 \begin{figure}[H]
-\centering
-\includegraphics[width=0.9\textwidth]{images/aXbo_Schlafverlauf_Hypnogramm_DE.png}
-\caption{Schlafverlauf Hypnogramm \cite{fig:Hypnogramm}}
-\label{fig:Hypnogramm}
+ \centering
+ \includegraphics[width=0.9\textwidth]{images/aXbo_Schlafverlauf_Hypnogramm_DE.png}
+ \caption{Schlafverlauf Hypnogramm \cite{fig:Hypnogramm}}
+ \label{fig:Hypnogramm}
 \end{figure}
 
 

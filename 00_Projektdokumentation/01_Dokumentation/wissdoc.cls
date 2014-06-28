@@ -17,7 +17,7 @@
 %%
 \NeedsTeXFormat{LaTeX2e}[1995/12/01] % Sorry, wir brauchen LaTeX2e!
 \ProvidesClass{wissdoc}[2012/05/10 Roland Bless - Wissenschaftliches Dokument]
-\LoadClass[a4paper,12pt,titlepage]{book} % diese Klasse basiert auf ``book''
+\LoadClass[a4paper,12pt,titlepage,oneside]{book} % diese Klasse basiert auf ``book''
 \usepackage[T1]{fontenc}      % T1-encoded fonts: auch Wörter mit Umlauten trennen
 \usepackage[utf8]{inputenc}   % Eingabe nach UTF-8
 \usepackage[ngerman]{babel}
@@ -34,7 +34,7 @@
 
 \usepackage[T1]{url} % much like \verb allow line breaks for paths and URLs
 
-\usepackage{pgfplots} % für Graphe
+\usepackage{pgfplots} % für Graphen
 % Postscript Fonts
 % times, palatino, newcent, bookman, garamond, basker, 
 % lucid, lucidbrb, lucidbry (Kommerzielle Fonts von Y&Y)
@@ -67,7 +67,7 @@
 \ProcessOptions
 
 \setcounter{secnumdepth}{3} % Numerierung auch für \subsubsection
-\setcounter{tocdepth}{3}    % nimm auch \subsubsections ins Inhaltsverz. auf
+\setcounter{tocdepth}{2}    % nimm auch \subsections ins Inhaltsverz. auf
 
 %% Schusterjungen und Hurenkinder verhindern.
 %% Siehe deutsches TeX-FAQ (6.1.3)
